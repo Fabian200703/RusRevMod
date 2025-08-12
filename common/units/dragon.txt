@@ -1,0 +1,27 @@
+sub_units = {
+	dragon ={
+		active = no
+		sprite = light_flame_tank
+		priority = 1
+		combat_width = 1
+
+		max_strength = 100
+		max_organisation = 100
+		default_morale = 100
+		manpower = 300
+		training_time = 120
+
+		entrenchment = 110
+		defense = 19
+		breakthrough = 19
+
+		group = infantry
+
+		# Support nerfs to combat abilities
+		soft_attack = 19
+		
+		need = {
+			infantry_equipment = 100
+		}
+	}
+}

@@ -1,0 +1,51 @@
+sp_dragon = {
+	specialization = specialization_land
+	icon = GFX_sp_land_flamethrower_tank ### Automatically hooked-in since the GFX ID matches the project ID.
+
+	project_tags = sp_tag_tank
+
+	ai_will_do = {
+		base = 1
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+	
+	available = {
+		FROM = {
+			has_tech = tech_engineers
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_land = 1
+	}
+	
+	prototype_time = 1
+
+	complexity = 100
+	
+	project_output = {
+
+		enable_subunits = { 
+			dragon
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_resource_scarcity
+	}
+}
