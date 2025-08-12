@@ -214,7 +214,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 124 124 124 }
+		color = { 40 40 40 }
 
 
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -248,8 +248,8 @@ ideologies = {
 		
 		ai_give_core_state_control_threshold = 10000
 	}
-}
-Anarchism = {
+
+ Anarchism = {
 
 		types = {
 
