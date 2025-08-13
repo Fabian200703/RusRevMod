@@ -1,7 +1,7 @@
 
 state={
 	id=1017
-	name="East Thrace"
+	name="STATE_1017"
 	manpower = 132040
 
 	state_category = rural
