@@ -6,7 +6,7 @@ state={
 	state_category = town
 
 	history={
-		owner = RSA
+		owner = FIN
 		add_core_of = FIN
 		add_core_of = KAR
 		add_core_of = RSA
