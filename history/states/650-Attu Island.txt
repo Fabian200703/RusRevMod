@@ -7,7 +7,7 @@ state=
 	
 	history=
 	{
-		owner = USA
+		owner = RSA
 		victory_points = {
 			13067 1 
 		}

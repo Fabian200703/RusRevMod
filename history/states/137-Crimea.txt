@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = SOV
+		owner = RSA
 
 		victory_points = {
 			3686 20 # Sevastopol
@@ -43,7 +43,7 @@ state = {
 			
 		}
 
-		add_core_of = SOV
+		add_core_of = RSA
 		add_core_of = CRI
 
 		1939.1.1 = {

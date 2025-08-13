@@ -10,11 +10,11 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = SOV
+		owner = RSA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SOV
+		add_core_of = RSA
 		add_core_of = OVO
 	}
 
