@@ -7,9 +7,10 @@ state = {
 
 	history = {
 
-		owner = PAL
+		owner = TUR
 		add_core_of = PAL
 		add_core_of = ISR
+		add_core_of = TUR
 
 		buildings = {
 			infrastructure = 3 #was: 5
