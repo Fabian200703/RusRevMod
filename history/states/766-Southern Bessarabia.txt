@@ -12,15 +12,16 @@ state=
 		}
 		add_core_of = MOL
 		add_core_of = UKR
-		owner = ROM
+		owner = RSA
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
+			
 			6727 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = ROM
+		add_core_of = RSA
 	}
 	provinces=
 	{

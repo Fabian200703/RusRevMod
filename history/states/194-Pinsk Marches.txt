@@ -1,4 +1,5 @@
 
+
 state={
 	id=194
 	name="STATE_194" # Mozyr
@@ -7,7 +8,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = SOV
+		owner = RSA
 		buildings = {
 			infrastructure = 2
 			air_base = 3
@@ -15,7 +16,7 @@ state={
 		victory_points = {
 			6232 1
 		}
-		add_core_of = SOV
+		add_core_of = RSA
 		add_core_of = BLR
 	}
 
