@@ -1,7 +1,7 @@
 
 state={
-	id=226
-	name="STATE_226" # Dnipropertovsk
+	id=1018
+	name="Saporischschja" # Dnipropertovsk
 	manpower = 1643788
 	
 	state_category = town
