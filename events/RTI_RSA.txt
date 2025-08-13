@@ -1,4 +1,5 @@
 add_namespace = RSA_civil_war
+add_namespace = RSA_communist_civil_war
 
 country_event = {
 	id = RSA_communist_civil_war.001
