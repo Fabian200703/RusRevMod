@@ -22,15 +22,21 @@ country_event = {
 	option = {
 		name = RSA_communist_civil_war.001.a
 		set_global_flag = flag_sided_with_lenin
+		hidden_effect = {
+			country_event = {
+				id = RSA_communist_civil_war.002
+			}
+		}
 	}
 	option = {
 		name = RSA_communist_civil_war.001.a
 		set_global_flag = flag_sided_with_kerensky
+		hidden_effect = {
+			country_event = {
+				id = RSA_communist_civil_war.002
+			}
+		}
 	}
-
-
-
-
 }
 
 
