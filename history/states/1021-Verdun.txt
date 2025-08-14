@@ -1,33 +1,32 @@
 
 state={
-	id=17
-	name="STATE_17" # Lorraine
-	manpower = 1517500
+	id=1021
+	name="Verdun"
+	manpower = 203000
 	
 	state_category = city
-	
-	resources={
-		steel=28 # was: 48
-	}
 
 	history={
 		owner = FRA
 		victory_points = {
-			9642 5 
+			9490 5 
 		}
 		victory_points = {
-			11516 5 
+			13011 5
+		}
+		victory_points = {
+			3560 1
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-			air_base = 5
+			air_base = 10
 		}
 		add_core_of = FRA
 	}
 
 	provinces={
-		698 3646 3666 6698 9642 9658 11488 11642 
+		5291 3560 
 	}
 
 	local_supplies=0.0 
