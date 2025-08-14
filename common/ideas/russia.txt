@@ -2,7 +2,30 @@ ideas = {
 
 	country = {
 
-				RSA_low_moral_among_russian_soldiers = {
+
+		RSA_political_violence = {
+
+			allowed = {
+				original_tag = RSA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			available = {
+				has_stability < 0.7
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+
+
+			RSA_low_moral_among_russian_soldiers = {
 
 			picture = generic_army_problems
 
@@ -20,7 +43,7 @@ ideas = {
 				army_org_factor = -0.1
 				experience_gain_army_factor = -1
 				army_org_regain = -0.15
-				custom_modifier_tooltip = SOV_military_reorganization_ns_removal_tt
+				
 			}
 		}
 

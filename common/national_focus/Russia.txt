@@ -40,7 +40,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production2
 		x = 12
 		y = 0
-		cost = 5
+		cost = 2
 
 		available = {
 
@@ -52,6 +52,36 @@ focus_tree = {
 
 		}
 	}
+
+	focus = {
+		id = February_Revolution
+		prerequisite = { focus = RSA_Can_Russia_Still_Win? }
+		x = 12
+		y = 5
+		cost = 5
+
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+			add_idea = RSA_political_violence
+		}
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
