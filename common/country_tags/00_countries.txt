@@ -173,6 +173,9 @@ WLS = "countries/Wales.txt"
 NGR = "countries/Niger.txt"
 CSA = "countries/CSA.txt"
 USB = "countries/USB.txt"
+HNA = "countries/Hunan.txt"
+GZH = "countries/Guizhou.txt"
+FCI = "countries/Fengtian Clique.txt"
 
 #neutral US bloc during civil war in MTG
 MRT = "countries/Mauritania.txt"
