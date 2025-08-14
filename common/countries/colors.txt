@@ -14,12 +14,12 @@ SOV = {
 }
 
 FCI = {
-	color = rgb { 210 200 74 }
+	color = rgb { 210 150 74 }
 	color_ui = rgb { 163 17 31 }
 }
 
 HNA = {
-	color = rgb { 162 96 0 }
+	color = rgb { 162 96 74 }
 	color_ui = rgb { 163 17 31 }
 }
 
