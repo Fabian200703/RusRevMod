@@ -22,17 +22,19 @@ country_event = {
 	option = {
 		name = RSA_communist_civil_war.001.a
 		set_global_flag = flag_sided_with_lenin
-		country_event = {
-			id = RSA_communist_civil_war.002
-			hours = 12
+		ROOT = {
+			country_event = {
+				id = RSA_communist_civil_war.002
+			}
 		}
 	}
 	option = {
 		name = RSA_communist_civil_war.001.b
 		set_global_flag = flag_sided_with_kerensky
-		country_event = {
-			id = RSA_communist_civil_war.003
-			hours = 12
+		ROOT = {
+			country_event = {
+				id = RSA_communist_civil_war.003
+			}
 		}
 	}
 }
@@ -51,11 +53,6 @@ country_event = {
 
 	#SOV bekommen am 25.10.17 195, 208, 244
 
-	immediate = {
-		hidden_effect = { SOV_initiate_civil_war = yes }
-	}
-	trigger = { NOT = { has_global_flag = SOV_soviet_civil_war } }
-	
 	option = {
 		name = RSA_communist_civil_war.002.a
 		195 = {
@@ -91,10 +88,6 @@ country_event = {
 
 	#SOV bekommen am 25.10.17 195, 208, 244
 
-	immediate = {
-		hidden_effect = { SOV_initiate_civil_war = yes }
-	}
-	trigger = { NOT = { has_global_flag = SOV_soviet_civil_war } }
 	
 	option = {
 		name = RSA_communist_civil_war.003.a
