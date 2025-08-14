@@ -3,8 +3,8 @@ add_namespace = RSA_communist_civil_war
 
 country_event = {
 	id = RSA_communist_civil_war.001
-	title = NSB_soviet_communist_civil_war.001.t
-	desc = NSB_soviet_communist_civil_war.001.desc
+	title = RSA_soviet_communist_civil_war.001.t
+	desc = RSA_soviet_communist_civil_war.001.desc
 	picture = GFX_report_event_generic_battle
 	is_triggered_only = yes
 	hidden = no
@@ -22,19 +22,17 @@ country_event = {
 	option = {
 		name = RSA_communist_civil_war.001.a
 		set_global_flag = flag_sided_with_lenin
-		hidden_effect = {
-			country_event = {
-				id = RSA_communist_civil_war.002
-			}
+		country_event = {
+			id = RSA_communist_civil_war.002
+			hours = 12
 		}
 	}
 	option = {
-		name = RSA_communist_civil_war.001.a
+		name = RSA_communist_civil_war.001.b
 		set_global_flag = flag_sided_with_kerensky
-		hidden_effect = {
-			country_event = {
-				id = RSA_communist_civil_war.003
-			}
+		country_event = {
+			id = RSA_communist_civil_war.003
+			hours = 12
 		}
 	}
 }
@@ -42,8 +40,8 @@ country_event = {
 
 country_event = {
 	id = RSA_communist_civil_war.002
-	title = NSB_soviet_communist_civil_war.002.t
-	desc = NSB_soviet_communist_civil_war.002.desc
+	title = RSA_soviet_communist_civil_war.002.t
+	desc = RSA_soviet_communist_civil_war.002.desc
 	picture = GFX_report_event_generic_battle
 	is_triggered_only = yes
 	hidden = no
@@ -60,24 +58,21 @@ country_event = {
 	
 	option = {
 		name = RSA_communist_civil_war.002.a
-		set_politics = {
-			ruling_party = communism
-			elections_allowed = no
-			long_name = "Bolsheviks"
-			name = "Bolsheviks"
+		195 = {
+			transfer_state_to = SOV
 		}
-		start_civil_war = {
-			ideology = neutrality
-			states = all
-			states_filter = {
-				NOT = {
-					OR = {
-						state = 195
-						state = 208
-						state = 244
-					}
-				}
+		208 = {
+			transfer_state_to = SOV
+		}
+		244 = {
+			transfer_state_to = SOV
+		}
+		SOV = {
+			declare_war_on = {
+				target = RSA
+				type = annex_everything
 			}
+			change_tag_from = RSA
 		}
 	}
 }
@@ -85,8 +80,8 @@ country_event = {
 
 country_event = {
 	id = RSA_communist_civil_war.003
-	title = NSB_soviet_communist_civil_war.003.t
-	desc = NSB_soviet_communist_civil_war.003.desc
+	title = RSA_soviet_communist_civil_war.003.t
+	desc = RSA_soviet_communist_civil_war.003.desc
 	picture = GFX_report_event_generic_battle
 	is_triggered_only = yes
 	hidden = no
@@ -103,15 +98,19 @@ country_event = {
 	
 	option = {
 		name = RSA_communist_civil_war.003.a
-		start_civil_war = {
-			ideology = communism
-			states = all
-			states_filter = {
-				OR = {
-					state = 195
-					state = 208
-					state = 244
-				}
+		195 = {
+			transfer_state_to = SOV
+		}
+		208 = {
+			transfer_state_to = SOV
+		}
+		244 = {
+			transfer_state_to = SOV
+		}
+		SOV = {
+			declare_war_on = {
+				target = RSA
+				type = annex_everything
 			}
 		}
 	}
