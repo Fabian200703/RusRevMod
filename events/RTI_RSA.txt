@@ -44,9 +44,6 @@ country_event = {
 	is_triggered_only = yes
 	hidden = no
 
-
-
-
 	#SOV bekommen am 07.11.17 195, 208, 244
 
 	option = {
