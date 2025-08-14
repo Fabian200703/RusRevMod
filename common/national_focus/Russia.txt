@@ -57,7 +57,7 @@ focus_tree = {
 		id = February_Revolution
 		prerequisite = { focus = RSA_Can_Russia_Still_Win? }
 		x = 12
-		y = 2
+		y = 1
 		cost = 5
 
 		search_filters = {FOCUS_FILTER_POLITICAL}
