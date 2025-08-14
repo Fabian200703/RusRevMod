@@ -1,7 +1,7 @@
 state = {
-	id = 980
-	name = "STATE_980"
-	manpower = 338130
+	id = 1019
+	name = "Eupen"
+	manpower = 38130
 	resources={
 		steel=9 # was: 0
 	}
@@ -10,23 +10,25 @@ state = {
 
 	history = {
 
-		owner = BEL
+		owner = GER
 		add_core_of = BEL
+		add_core_of = GER
 
 		victory_points = {
-			9418 1 # Arlons
+			3488 1 
 		}
 
 		buildings = {
 			infrastructure = 1
 
-
+			# Gileppe Dam
+			3488 = { dam = 1 }
 		}
 		
 	}
 
 	provinces = {
-		 6537 9418 9444 11407
+		 3488
 	}
 
 	local_supplies = 14.0 
