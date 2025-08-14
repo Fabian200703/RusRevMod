@@ -12,7 +12,7 @@ country_event = {
 
 
 
-	#SOV bekommen am 25.10.17 195, 181, 244
+	#SOV bekommen am 25.10.17 195, 208, 244
 
 	immediate = {
 		hidden_effect = { SOV_initiate_civil_war = yes }
@@ -33,7 +33,7 @@ country_event = {
 		set_global_flag = flag_sided_with_kerensky
 		hidden_effect = {
 			country_event = {
-				id = RSA_communist_civil_war.002
+				id = RSA_communist_civil_war.003
 			}
 		}
 	}
@@ -51,7 +51,7 @@ country_event = {
 
 
 
-	#SOV bekommen am 25.10.17 195, 181, 244
+	#SOV bekommen am 25.10.17 195, 208, 244
 
 	immediate = {
 		hidden_effect = { SOV_initiate_civil_war = yes }
@@ -60,251 +60,59 @@ country_event = {
 	
 	option = {
 		name = RSA_communist_civil_war.002.a
-		trigger = {
-			has_global_flag = flag_sided_with_lenin
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = no
+			long_name = "Bolsheviks"
+			name = "Bolsheviks"
 		}
-		
-	}
-
-
-
-
-	# Civil war starts
-	option = {
-		name = NSB_soviet_communist_civil_war.001.a
-		ai_chance = { 
-			base = 10
-		}
-		trigger = {
-			has_character = SOV_lev_trotsky
-			NOT = {
-				has_global_flag = trotsky_dead # just to be sure we don't end up with a ghost leading the country
-			}
-		}
-
-		# SET UP NEW CAPITAL - This is where the player will launch the uprising from
-		SOV_set_up_civil_war_capital = yes 
-
-		# Determine Army size
-		SOV_set_up_civil_war_army_fractions = yes 
-
-		# DEPOSE STALIN 
-		SOV_promote_to_country_leader_trotsky = yes	
-
-		hidden_effect = {
-			#START CIVIL WAR
-			SOV_start_civil_war = yes 
-
-			# LEFT Opposition Specific Stuff 
-			SOV_left_opposition_civil_war_start = yes 
-
-			# Return Trotsky from Mexico
-			if = {
-				limit = {
-					has_global_flag = AAT_trotsky_in_mexico
-				}
-				set_global_flag = flag_trotsky_returning_to_ussr_from_mexico
-				MEX = { country_event = { id = mexico.22 hours = 1} }	
-			}
-			else_if = {
-				limit = {
-					has_global_flag = NOR_trotsky_in_norway
-				}
-				set_global_flag = flag_trotsky_returning_to_ussr_from_norway
-				set_global_flag = NOR_trotsky_in_soviet
-				clr_global_flag = NOR_trotsky_in_norway
-				NOR = { country_event = { id = mexico.22 hours = 1} }
-			}
-		}
-	}
-	option = {
-		name = NSB_soviet_communist_civil_war.001.b
-		ai_chance = { 
-			base = 10
-		}
-		trigger = {
-			has_character = SOV_ivan_smirnov
-			has_completed_focus = SOV_integrate_smirnovs_bloc
-		}
-
-		# SET UP NEW CAPITAL - This is where the player will launch the uprising from
-		SOV_set_up_civil_war_capital = yes 
-
-		# Determine Army size
-		SOV_set_up_civil_war_army_fractions = yes 
-
-		# DEPOSE STALIN 
-		SOV_promote_to_country_leader_smirnov = yes
-
-		hidden_effect = {
-			#START CIVIL WAR
-			SOV_start_civil_war = yes 
-
-			# LEFT Opposition Specific Stuff 
-			SOV_left_opposition_civil_war_start = yes 	
-		}
-	}
-
-	option = {
-		name = NSB_soviet_communist_civil_war.001.c
-		ai_chance = { 
-			base = 10
-		}
-		trigger = {
-			AND = {
-				NOT = { has_character = SOV_lev_trotsky }
-				OR = { 
-					NOT = { has_character = SOV_ivan_smirnov }
-					NOT = { has_completed_focus = SOV_integrate_smirnovs_bloc }
-				}
-				OR = { 
-					NOT = { has_character = SOV_grigory_zinovyev }
-					NOT = { has_completed_focus = SOV_align_the_zinovyevites }
-				}
-				OR = { 
-					NOT = { has_character = SOV_lev_kamenev }
-					NOT = { has_completed_focus = SOV_align_the_zinovyevites }
-				}
-			}
-		}
-		
-
-		# SET UP NEW CAPITAL - This is where the player will launch the uprising from
-		SOV_set_up_civil_war_capital = yes 
-
-		# Determine Army size
-		SOV_set_up_civil_war_army_fractions = yes 
-
-		# DEPOSE STALIN 
-		IF = {
-			limit = { 
-				any_unit_leader = { has_trait = trait_SOV_trotskyist }
-			}
-			ROOT = {
-				random_unit_leader = {
-					limit = { 
-						has_trait = trait_SOV_trotskyist
-					}
-					add_country_leader_role = {
-						country_leader = {
-							ideology = marxism
-							traits = { }
-							expire = "1965.1.1.1"
-						}
-						promote_leader = yes 
-					}
-					
-				}
-			}
-		}
-		ELSE = {
-			ROOT = {
-				random_unit_leader = {
-					limit = { 
-						NOT = { has_trait = trait_SOV_stalinist }
-					}
-					add_country_leader_role = {
-						country_leader = {
-							ideology = marxism
-							traits = { }
-							expire = "1965.1.1.1"
-						}
-						promote_leader = yes 
+		start_civil_war = {
+			ideology = neutrality
+			states = all
+			states_filter = {
+				NOT = {
+					OR = {
+						state = 195
+						state = 208
+						state = 244
 					}
 				}
 			}
 		}
-		hidden_effect = {
-			random_list = {
-				20 = {
-					SOV = { add_country_leader_trait = stout_defender }
-				}
-				20 = {
-					SOV = { add_country_leader_trait = devoted_trotskyist }
-				}
-				20 = {
-					SOV = { add_country_leader_trait = cornered_fox }
-				}
-				20 = {
-					SOV = { add_country_leader_trait = permanent_revolutionary }
-				}
-				20 = {
-					SOV = { add_country_leader_trait = indecisive }
-				}
-			}
-		}
-		
-		
-
-		hidden_effect = {
-			#START CIVIL WAR
-			SOV_start_civil_war = yes 
-
-			# LEFT Opposition Specific Stuff 
-			SOV_left_opposition_civil_war_start = yes  
-		}
-				
 	}
-	# Zinovyev
-	option = {
-		name = NSB_soviet_communist_civil_war.001.d
-		ai_chance = { 
-			base = 10
-		}
-		trigger = {
-			has_character = SOV_grigory_zinovyev
-			has_completed_focus = SOV_align_the_zinovyevites
-		}
+}
 
-		# SET UP NEW CAPITAL - This is where the player will launch the uprising from
-		SOV_set_up_civil_war_capital = yes 
 
-		# Determine Army size
-		SOV_set_up_civil_war_army_fractions = yes 
+country_event = {
+	id = RSA_communist_civil_war.003
+	title = NSB_soviet_communist_civil_war.003.t
+	desc = NSB_soviet_communist_civil_war.003.desc
+	picture = GFX_report_event_generic_battle
+	is_triggered_only = yes
+	hidden = no
 
-		# DEPOSE STALIN 
-		SOV_promote_to_country_leader_zinovyev = yes 	
 
-		hidden_effect = {
-			#START CIVIL WAR
-			SOV_start_civil_war = yes 
 
-			# LEFT Opposition Specific Stuff 
-			SOV_left_opposition_civil_war_start = yes 	
-		}
+
+	#SOV bekommen am 25.10.17 195, 208, 244
+
+	immediate = {
+		hidden_effect = { SOV_initiate_civil_war = yes }
 	}
-	# Kamenev
-	option = {
-		name = NSB_soviet_communist_civil_war.001.e
-		ai_chance = { 
-			base = 10
-		}
-		trigger = {
-			has_character = SOV_lev_kamenev
-			has_completed_focus = SOV_align_the_zinovyevites
-		}
-
-		# SET UP NEW CAPITAL - This is where the player will launch the uprising from
-		SOV_set_up_civil_war_capital = yes 
-
-		# Determine Army size
-		SOV_set_up_civil_war_army_fractions = yes 
-
-		# DEPOSE STALIN 
-		SOV_promote_to_country_leader_kamenev = yes 
-
-		hidden_effect = {
-			#START CIVIL WAR
-			SOV_start_civil_war = yes 
-
-			# LEFT Opposition Specific Stuff 
-			SOV_left_opposition_civil_war_start = yes 	
-		}
-	}
-
-
-
-
+	trigger = { NOT = { has_global_flag = SOV_soviet_civil_war } }
 	
-
+	option = {
+		name = RSA_communist_civil_war.003.a
+		start_civil_war = {
+			ideology = communism
+			states = all
+			states_filter = {
+				OR = {
+					state = 195
+					state = 208
+					state = 244
+				}
+			}
+		}
+	}
 }
