@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_1917"
+		textureFile = "gfx/interface/1917_interface.dds"
+		noOfFrames = 2
+	}
+
+}
+
+	
