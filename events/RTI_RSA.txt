@@ -12,7 +12,7 @@ country_event = {
 	picture = GFX_report_event_generic_battle
 	hidden = no
 	trigger = {
-		date > 1917.11.06
+		date > 1917.01.06
 		tag = RSA
 	}
 
