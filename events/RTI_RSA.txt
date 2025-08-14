@@ -1,27 +1,24 @@
 add_namespace = RSA_civil_war
 add_namespace = RSA_communist_civil_war
+add_namespace = RSA_democratic_civil_war
+add_namespace = RSA_anarchist_civil_war
 
+
+#Communist
 country_event = {
 	id = RSA_communist_civil_war.001
-	title = RSA_soviet_communist_civil_war.001.t
-	desc = RSA_soviet_communist_civil_war.001.desc
+	title = RSA_communist_civil_war.001.t
+	desc = RSA_communist_civil_war.001.desc
 	picture = GFX_report_event_generic_battle
-	is_triggered_only = yes
 	hidden = no
-
-
-
-
-	#SOV bekommen am 25.10.17 195, 208, 244
-
-	immediate = {
-		hidden_effect = { SOV_initiate_civil_war = yes }
+	trigger = {
+		date > 1917.11.06
+		tag = RSA
 	}
-	trigger = { NOT = { has_global_flag = SOV_soviet_civil_war } }
 
+	#SOV bekommen am 07.11.17 195, 208, 244
 	option = {
 		name = RSA_communist_civil_war.001.a
-		set_global_flag = flag_sided_with_lenin
 		ROOT = {
 			country_event = {
 				id = RSA_communist_civil_war.002
@@ -30,7 +27,6 @@ country_event = {
 	}
 	option = {
 		name = RSA_communist_civil_war.001.b
-		set_global_flag = flag_sided_with_kerensky
 		ROOT = {
 			country_event = {
 				id = RSA_communist_civil_war.003
@@ -42,8 +38,8 @@ country_event = {
 
 country_event = {
 	id = RSA_communist_civil_war.002
-	title = RSA_soviet_communist_civil_war.002.t
-	desc = RSA_soviet_communist_civil_war.002.desc
+	title = RSA_communist_civil_war.002.t
+	desc = RSA_communist_civil_war.002.desc
 	picture = GFX_report_event_generic_battle
 	is_triggered_only = yes
 	hidden = no
@@ -51,7 +47,7 @@ country_event = {
 
 
 
-	#SOV bekommen am 25.10.17 195, 208, 244
+	#SOV bekommen am 07.11.17 195, 208, 244
 
 	option = {
 		name = RSA_communist_civil_war.002.a
@@ -77,8 +73,8 @@ country_event = {
 
 country_event = {
 	id = RSA_communist_civil_war.003
-	title = RSA_soviet_communist_civil_war.003.t
-	desc = RSA_soviet_communist_civil_war.003.desc
+	title = RSA_communist_civil_war.003.t
+	desc = RSA_communist_civil_war.003.desc
 	picture = GFX_report_event_generic_battle
 	is_triggered_only = yes
 	hidden = no
@@ -86,7 +82,7 @@ country_event = {
 
 
 
-	#SOV bekommen am 25.10.17 195, 208, 244
+	#SOV bekommen am 07.11.17 195, 208, 244
 
 	
 	option = {
@@ -104,6 +100,288 @@ country_event = {
 			declare_war_on = {
 				target = RSA
 				type = annex_everything
+			}
+		}
+	}
+}
+
+
+
+
+#DEMOCRATIC
+country_event = {
+	id = RSA_democratic_civil_war.001
+	title = RSA_democratic_civil_war.001.t
+	desc = RSA_democratic_civil_war.001.desc
+	picture = GFX_report_event_generic_battle
+	trigger = {
+		257 = {
+			OR = {
+				is_fully_controlled_by = BLA
+				is_fully_controlled_by = SOV
+			}
+		}
+		tag = SOV
+	}
+
+	#GRA bekommen am 07.11.17 257
+	option = {
+		name = RSA_democratic_civil_war.001.a
+		ROOT = {
+			country_event = {
+				id = RSA_democratic_civil_war.002
+			}
+		}
+	}
+	option = {
+		name = RSA_democratic_civil_war.001.b
+		ROOT = {
+			country_event = {
+				id = RSA_democratic_civil_war.003
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = RSA_democratic_civil_war.002
+	title = RSA_democratic_civil_war.002.t
+	desc = RSA_democratic_civil_war.002.desc
+	picture = GFX_report_event_generic_battle
+	is_triggered_only = yes
+	hidden = no
+
+
+
+
+	#SOV bekommen am 07.11.17 195, 208, 244
+
+	option = {
+		name = RSA_democratic_civil_war.002.a
+		257 = {
+			transfer_state_to = GRA
+		}
+		GRA = {
+			if = {
+				limit = {
+					RSA = {exists = yes}
+				}
+				declare_war_on = {
+					target = RSA
+					type = annex_everything
+				}
+			}
+
+			if = {
+				limit = {
+					SOV = {exists = yes}
+				}
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+			}
+
+			if = {
+				limit = {
+					BLA = {exists = yes}
+				}
+				declare_war_on = {
+					target = BLA
+					type = annex_everything
+				}
+			}
+			change_tag_from = RSA
+			change_tag_from = SOV
+			change_tag_from = BLA
+		}
+	}
+}
+
+
+country_event = {
+	id = RSA_democratic_civil_war.003
+	title = RSA_democratic_civil_war.003.t
+	desc = RSA_democratic_civil_war.003.desc
+	picture = GFX_report_event_generic_battle
+	is_triggered_only = yes
+	hidden = no
+
+	option = {
+		name = RSA_democratic_civil_war.003.a
+		257 = {
+			transfer_state_to = GRA
+		}
+		GRA = {
+			if = {
+				limit = {
+					RSA = {exists = yes}
+				}
+				declare_war_on = {
+					target = RSA
+					type = annex_everything
+				}
+			}
+
+			if = {
+				limit = {
+					SOV = {exists = yes}
+				}
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+			}
+
+			if = {
+				limit = {
+					BLA = {exists = yes}
+				}
+				declare_war_on = {
+					target = BLA
+					type = annex_everything
+				}
+			}
+		}
+	}
+}
+
+
+
+
+#ANARCHIST
+country_event = {
+	id = RSA_anarchist_civil_war.001
+	title = RSA_anarchist_civil_war.001.t
+	desc = RSA_anarchist_civil_war.001.desc
+	picture = GFX_report_event_generic_battle
+	trigger = {
+		tag = RSA
+		date > 1917.12.06
+	}
+
+	#SOV bekommen am 07.11.17 227
+	option = {
+		name = RSA_anarchist_civil_war.001.a
+		ROOT = {
+			country_event = {
+				id = RSA_anarchist_civil_war.002
+			}
+		}
+	}
+	option = {
+		name = RSA_anarchist_civil_war.001.b
+		ROOT = {
+			country_event = {
+				id = RSA_anarchist_civil_war.003
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = RSA_anarchist_civil_war.002
+	title = RSA_anarchist_civil_war.002.t
+	desc = RSA_anarchist_civil_war.002.desc
+	picture = GFX_report_event_generic_battle
+	is_triggered_only = yes
+	hidden = no
+
+
+
+	option = {
+		name = RSA_anarchist_civil_war.002.a
+		227 = {
+			transfer_state_to = BLA
+		}
+		BLA = {
+			if = {
+				limit = {
+					RSA = {exists = yes}
+				}
+				declare_war_on = {
+					target = RSA
+					type = annex_everything
+				}
+			}
+
+			if = {
+				limit = {
+					SOV = {exists = yes}
+				}
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+			}
+
+			if = {
+				limit = {
+					GRA = {exists = yes}
+				}
+				declare_war_on = {
+					target = GRA
+					type = annex_everything
+				}
+			}
+			change_tag_from = RSA
+			change_tag_from = SOV
+			change_tag_from = GRA
+		}
+	}
+}
+
+
+country_event = {
+	id = RSA_anarchist_civil_war.003
+	title = RSA_anarchist_civil_war.003.t
+	desc = RSA_anarchist_civil_war.003.desc
+	picture = GFX_report_event_generic_battle
+	is_triggered_only = yes
+	hidden = no
+
+
+
+
+	#SOV bekommen am 07.11.17 195, 208, 244
+
+	
+	option = {
+		name = RSA_anarchist_civil_war.003.a
+		227 = {
+			transfer_state_to = BLA
+		}
+		BLA = {
+			if = {
+				limit = {
+					RSA = {exists = yes}
+				}
+				declare_war_on = {
+					target = RSA
+					type = annex_everything
+				}
+			}
+
+			if = {
+				limit = {
+					SOV = {exists = yes}
+				}
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+			}
+
+			if = {
+				limit = {
+					GRA = {exists = yes}
+				}
+				declare_war_on = {
+					target = GRA
+					type = annex_everything
+				}
 			}
 		}
 	}
