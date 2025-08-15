@@ -72,6 +72,7 @@ focus_tree = {
 		prerequisite = {focus = February_Revolution}
 		x = 10
 		y = 2
+		cost = 2
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {add_popularity = {ideology = communism
 		popularity = 0.1}}
@@ -82,6 +83,7 @@ focus_tree = {
 		prerequisite = {focus = February_Revolution}
 		x = 14
 		y = 2
+		cost = 3
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {add_popularity = {ideology = neutrality
 		popularity = -0.1}
@@ -94,9 +96,10 @@ focus_tree = {
 		prerequisite = {focus = Empower_the_Soviet_of_Petrograd}
 		x = 12
 		y = 3
+		cost = 5
 		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {swap ideas = {remove_ideas = RSA_low_moral_among_russian_soldiers
-											add_ideas = RSA_Kerensky_Offensive}
+		completion_reward = {remove_ideas = A_low_moral_among_russian_soldiers
+								add_ideas = RSA_Kerensky_Offensive
 											}
 	
 	}
