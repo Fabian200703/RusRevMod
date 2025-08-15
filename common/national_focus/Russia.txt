@@ -66,6 +66,7 @@ focus_tree = {
 
 			add_ideas = RSA_political_violence
 		}
+	}
 	focus = {
 		id = Empower_the_Soviet_of_Petrograd
 		prerequisite = {focus = February_Revolution}
@@ -111,21 +112,3 @@ focus_tree = {
 	}
 
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-}
