@@ -1,5 +1,5 @@
-﻿capital = 219
-oob = "RSA_1917"
+capital = 266
+oob = "GER_1917"
 
 set_research_slots = 3
 # Starting tech
@@ -20,17 +20,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	communism = 5
+	democratic = 20
+	communism = 10
 	neutrality = 60
-	fascism = 5
+	fascism = 10
 	
 }
 
-recruit_character = SOV_tsar_vladimir_kirillovich
-
-
-
-
-
-
+recruit_character = GER_wilhelm_ii

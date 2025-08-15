@@ -1,4 +1,4 @@
-	charakters = {
+	characters = {
         
 SOV_tsar_vladimir_kirillovich = {
 		name = "Nikolaus II"
