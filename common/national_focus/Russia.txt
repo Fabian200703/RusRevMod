@@ -139,10 +139,6 @@ focus_tree = {
 		x = 12
 		y = 6
 		cost = 10
-				available = {
-
-		}
-		
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = { #hier event einfügen
 		}
