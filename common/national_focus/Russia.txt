@@ -89,18 +89,18 @@ focus_tree = {
 		cost = 7
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {add_popularity = {ideology = communism
-		popularity = 0.1}}
+		popularity = 0.2}}
 		}
 
 	focus = {
-		id = Weaken_the_provisional_government
+		id = Weaken_the_Monarchists
 		prerequisite = {focus = February_Revolution}
 		x = 14
 		y = 2
 		cost = 7
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {add_popularity = {ideology = democratic
-								popularity = -0.1}}
+								popularity = 0.2}}
 	}
 
 	focus = {
@@ -117,7 +117,6 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = July_Days
 		prerequisite = {focus = Kerensky_Offensive}
 		x = 12
@@ -128,7 +127,7 @@ focus_tree = {
 		
 		create_country_leader = {
 		name = "Alexander Fyodorovich Kerensky"
-		picture = "Lwow.dds"
+		picture = "Kerensky.dds"
 		ideology = liberalism
 		expire = "1930.1.1.1"
 			}
@@ -136,7 +135,6 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = Unrest_in_Petrograd
 		prerequisite = {focus = July_Days}
 		x = 12
@@ -145,22 +143,12 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = October_Revolution
 		prerequisite = {focus = Unrest_in_Petrograd}
 		x = 12
 		y = 6
 		completion_reward = { #hier event einfügen}
 	}
-
-
-
-
-
-
-
-
-
 
 
 	}
