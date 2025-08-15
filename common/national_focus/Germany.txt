@@ -10,4 +10,20 @@ id = german_focus
 		}
 	}
 
+focus = {
+
+	id = Create_a_polish_puppet_state
+	x = 12
+	y = 0
+	cost = 5
+	completion_reward = {}
+
+}
+
+
+
+
+
+
+
 }

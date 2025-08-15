@@ -1,0 +1,39 @@
+# Events for Germany
+
+add_namespace = Germany
+
+#Creation Kingdom of Poland
+
+country event = {
+
+id = Germany.1
+title = Germany.1.t
+desc = Germany.1.d
+picture = GFX_report_event_generic_battle
+
+is_triggerd_only = yes
+
+option = {
+    name = Germany.1.a
+    ai_chance = {factor = 100}
+    effect_tooltip = {
+
+        POL = { 10 = {transfer_state_to = POL}
+                90 = {transfer_state_to = POL}
+                87 = {transfer_state_to = POL}
+                98 = {transfer_state_to = POL}
+                92 = {transfer_state_to = POL}
+                97 = {transfer_state_to = POL}
+                                                }
+
+        GER = { puppet = {
+                target = POL
+                end_wars = no
+    }
+}
+
+
+
+        }
+    }
+}
