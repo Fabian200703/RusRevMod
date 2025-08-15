@@ -27,7 +27,7 @@ set_popularities = {
 	
 }
 
-recruit_character = SOV_tsar_vladimir_kirillovich
+recruit_character = RSA_Nikolaus_II
 
 
 

@@ -1,21 +1,26 @@
 	characters = {
         
-SOV_tsar_vladimir_kirillovich = {
-		name = "Nikolaus II"
-		portraits = {
-			civilian = {
-				large = "GFX_portrait_SOV_vladimir_kirillovich"
-			}
-		}
-		country_leader = {
-			ideology = despotism
-			expire = "1953.3.1.1"
-			id = -1
-			traits = {
-				emperor_and_autocrat_of_all_the_russias
-			}
-		}
-	}
+
+
+RSA_Nikolaus_II = {
+
+name = "Nikolaus II"
+portraits = "Nikolaus_II.dds"
+country_leader = {
+	ideology = despotism
+	expire = 1953.1.1.1"
+	id = -1
+	traits = {emperor_and_autocrat_of_all_the_russias}
+}
+
+}
+
+}
+
+
+
+
+
 
 SOV_aleksandr_kerensky = {
 		name = SOV_aleksandr_kerensky
