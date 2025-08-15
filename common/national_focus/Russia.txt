@@ -59,7 +59,7 @@ focus_tree = {
 		prerequisite = { focus = RSA_Can_Russia_Still_Win? }
 		x = 12
 		y = 1
-		cost = 5
+		cost = 8
 
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
@@ -78,9 +78,9 @@ focus_tree = {
 		ideology = liberalism
 		expire = "1960.1.1.1
 		id = -1
+			}
 		}
 	}
-}
 
 	focus = {
 		id = Empower_the_Soviet_of_Petrograd
@@ -101,9 +101,7 @@ focus_tree = {
 		cost = 3
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {add_popularity = {ideology = democratic
-								popularity = -0.1}
-	
-	}
+								popularity = -0.1}}
 	}
 
 	focus = {

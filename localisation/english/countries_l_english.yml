@@ -82,7 +82,7 @@
  RSA_ADJ:0 "Russian"
  RSA_fascism:0 "Russian Empire"
  RSA_fascism_DEF:0 "the Russian Empire"
- RSA_democratic:0 "Russian Federation"
+ RSA_democratic:0 "Russian Provisional Government"
  RSA_democratic_DEF:0 "the Russian Federation"
  RSA_neutrality:0 "Russian Empire"
  RSA_neutrality_DEF:0 "Russian Empire"
@@ -113,7 +113,6 @@
  RSA:0 "Russian Empire"
  RSA_DEF:0 "Russian Empire"
  RSA_ADJ:0 "Russian"
-
  SOV_fascism_DEF:0 "the Russian Empire"
  SOV_democratic:0 "Russian Federation"
  SOV_democratic_DEF:0 "the Russian Federation"
