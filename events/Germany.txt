@@ -4,7 +4,7 @@ add_namespace = Germany
 
 #Creation Kingdom of Poland
 
-country event = {
+country_event = {
 
 id = Germany.1
 title = Germany.1.t
@@ -17,7 +17,6 @@ is_triggerd_only = yes
 option = {
     name = Germany.1.a
     ai_chance = {factor = 100}
-
 
     10 = {transfer_state_to = POL}
     90 = {transfer_state_to = POL}
