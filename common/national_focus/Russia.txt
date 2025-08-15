@@ -65,8 +65,22 @@ focus_tree = {
 		completion_reward = {
 
 			add_ideas = RSA_political_violence
+			set_politics = {
+   		ruling_party = democratic
+   		elections_allowed = yes
+   		last_election = "1912.1.1"
+    	election_frequency = 48
+   		}
+		create_country_leader = {
+		name = "Georgi Jewgenjewitsch Lwow"
+		picture = "Lwow.dds"
+		ideology = liberalism
+		expire = "1960.1.1.1
+		traits= {}
+		id = -1
 		}
-	}
+		}
+		}
 	focus = {
 		id = Empower_the_Soviet_of_Petrograd
 		prerequisite = {focus = February_Revolution}
@@ -85,9 +99,10 @@ focus_tree = {
 		y = 2
 		cost = 3
 		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {add_popularity = {ideology = neutrality
-		popularity = -0.1}
-		}
+		completion_reward = {add_popularity = {ideology = democratic
+								popularity = -0.1}
+	
+	}
 	}
 
 	focus = {
@@ -99,8 +114,7 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {remove_ideas = RSA_low_moral_among_russian_soldiers
-								add_ideas = RSA_Kerensky_Offensive
-											}
+								add_ideas = RSA_Kerensky_Offensive}
 	
 	}
 
