@@ -31,7 +31,7 @@ create_country_leader = {
 
 name = "Wilhelm_II"
 	portraits = { civilian = { large ="GFX_portrait_GER_wilhelm_ii"}}
-	country_leader ={ideology = despotism
+	country_leader ={ideology =despotism
 					expire = "1960.1.1.1
 					traits= {}
 					id = -1}
