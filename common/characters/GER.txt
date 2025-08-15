@@ -4,7 +4,7 @@ GER_wilhelm_ii = {
 		name = "Wilhelm_II"
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ger_wilhelm_ii
+				large = "GFX_portrait_ger_wilhelm_ii"
 			}	
 		}
 		country_leader = {
