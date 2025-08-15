@@ -1,10 +1,14 @@
-	characters = {
+characters = {
     
-GER_wilhelm_ii = {
+GER_kaiser_wilhelm_ii= {
 	name = "Wilhelm_II"
 	portraits = { civilian = { large ="GFX_portrait_GER_wilhelm_ii"}}
 	country_leader ={ideology = despotism
-					expire = "1960.1.1.1}
+					expire = "1960.1.1.1
+					traits= {}
+					id = -1}
 	}
+
+
 
 }

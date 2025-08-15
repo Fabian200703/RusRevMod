@@ -27,4 +27,4 @@ set_popularities = {
 	
 }
 
-recruit_character = GER_wilhelm_ii
+recruit_character = GER_kaiser_wilhelm_ii
