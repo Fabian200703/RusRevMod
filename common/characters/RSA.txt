@@ -1,12 +1,12 @@
-	characters = {
+characters = {
         
 RSA_Nikolaus_II = {
-
 name = "Nikolaus II"
 portraits = "Nikolaus_II.dds"
 country_leader = {
 	ideology = despotism
 	expire = "1953.1.1.1"
+	id = -1
 	traits = {emperor_and_autocrat_of_all_the_russias}
 }
 

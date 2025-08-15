@@ -151,7 +151,8 @@ focus_tree = {
 		cost = 10
 		completion_reward = { #hier event einfügen}
 	}
+	
 
-
+	
 	}
 
