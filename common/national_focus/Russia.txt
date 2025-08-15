@@ -105,7 +105,7 @@ focus_tree = {
 
 	focus = {
 		id = Kerensky_Offensive
-		prerequisite = {focus = Weaken_the_provisional_government}
+		prerequisite = {focus = Weaken_the_Monarchists}
 		prerequisite = {focus = Empower_the_Soviet_of_Petrograd}
 		x = 12
 		y = 3
@@ -139,6 +139,7 @@ focus_tree = {
 		prerequisite = {focus = July_Days}
 		x = 12
 		y = 5
+		cost = 10
 		completion_reward = { #hier event einfügen}
 	}
 
@@ -147,6 +148,7 @@ focus_tree = {
 		prerequisite = {focus = Unrest_in_Petrograd}
 		x = 12
 		y = 6
+		cost = 10
 		completion_reward = { #hier event einfügen}
 	}
 
