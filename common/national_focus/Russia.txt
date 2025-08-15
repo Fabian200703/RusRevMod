@@ -83,8 +83,8 @@ focus_tree = {
 		x = 14
 		y = 2
 		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {add_popularity = {ideology = communism
-		popularity = 0.1}
+		completion_reward = {add_popularity = {ideology = neutrality
+		popularity = -0.1}
 		}
 	}
 
@@ -95,8 +95,8 @@ focus_tree = {
 		x = 12
 		y = 3
 		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {swap ideas = {remove_idea = RSA_low_moral_among_russian_soldiers
-											add_idea = RSA_Kerensky_Offensive}
+		completion_reward = {swap ideas = {remove_ideas = RSA_low_moral_among_russian_soldiers
+											add_ideas = RSA_Kerensky_Offensive}
 											}
 	
 	}
