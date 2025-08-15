@@ -4852,6 +4852,13 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Marschall.dds"
 	}
 
+
+	spriteType = { 
+				name = GFX_portrait_ger_wilhelm_ii
+				texturefile = "gfx/leaders/GER/portrait_ger_wilhelm_ii.dds"
+
+	}
+
 	spriteType = {
 		name = GFX_portrait_GER_wilhelm_marschall_small
 		texturefile = "gfx/interface/ideas/idea_GER_wilhelm_marschall.dds"
