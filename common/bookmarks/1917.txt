@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "1917_DESC"
 		date = 1917.1.1.12
 		picture = "GFX_1917_interface"
-		default_country = "RSA"
+		default_country = "GER"
 		default = yes
 		
 		"FRA"={
