@@ -98,7 +98,7 @@ focus_tree = {
 		y = 3
 		cost = 5
 		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {remove_ideas = A_low_moral_among_russian_soldiers
+		completion_reward = {remove_ideas = RSA_low_moral_among_russian_soldiers
 								add_ideas = RSA_Kerensky_Offensive
 											}
 	

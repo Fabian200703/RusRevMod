@@ -1,5 +1,5 @@
 ﻿capital = 219
-oob = "RSA_1936"
+oob = "RSA_1917"
 
 set_research_slots = 3
 # Starting tech
@@ -12,36 +12,10 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 }
-if = {
-	limit = {
-		NOT = { has_dlc = "By Blood Alone" }
-	}
-	set_technology = {
-		early_fighter = 1
-		early_bomber = 1
-	}
-}
-
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-	}
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-	}
-}
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1934.2.11"
+	last_election = "1917.2.11"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -52,6 +26,11 @@ set_popularities = {
 	fascism = 5
 	authoritarianism = 0
 }
+
+recruit_character = SOV_tsar_vladimir_kirillovich
+
+
+
 
 
 
