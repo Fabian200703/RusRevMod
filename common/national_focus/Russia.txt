@@ -55,6 +55,7 @@ focus_tree = {
 
 	focus = {
 		id = February_Revolution
+
 		prerequisite = { focus = RSA_Can_Russia_Still_Win? }
 		x = 12
 		y = 1
@@ -65,7 +66,49 @@ focus_tree = {
 
 			add_ideas = RSA_political_violence
 		}
+	focus = {
+		id = Empower_the_Soviet_of_Petrograd
+		prerequisite = {focus = February_Revolution}
+		x = 10
+		y = 2
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {add_popularity = {ideology = communism
+		popularity = 0.1}
+		}
 
+	focus = {
+		id = Weaken_the_provisional_government
+		prerequisite = {focus = February_Revolution}
+		x = 14
+		y = 2
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {add_popularity = {ideology = communism
+		popularity = 0.1}
+		}
+
+	focus = {
+		id = Kerensky_Offensive
+		prerequisite = {focus = Weaken_the_provisional_government
+						focus = Empower_the_Soviet_of_Petrograd}
+		x = 12
+		y = 3
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {swap ideas = {remove_idea = RSA_low_moral_among_russian_soldiers
+											add_idea = RSA_Kerensky_Offensive}
+											}
+	}
+
+
+
+
+
+
+
+
+
+
+
+	}
 
 	}
 
@@ -84,4 +127,5 @@ focus_tree = {
 
 
 
+}
 }

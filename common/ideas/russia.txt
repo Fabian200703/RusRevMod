@@ -5,6 +5,8 @@ ideas = {
 
 		RSA_political_violence = {
 
+			picture = generic_morale_bonus
+
 			allowed = {
 				original_tag = RSA
 				always = no
@@ -48,7 +50,30 @@ ideas = {
 				
 			}
 		}
+			RSA_Kerensky_Offensive = {
 
+			picture = generic_army_problems
 
+			removal_cost = -1
+
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_org_factor = -0.1
+				max_dig_in_factor = -0.15
+				supply_consumption_factor = -0.1
+				land_doctrine_cost_factor = -0.2
+				offence = 0.2
+				defence = -0.05
+				
+			}
+		}
+			
 	}
 }
