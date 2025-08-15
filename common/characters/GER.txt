@@ -1,7 +1,7 @@
 	characters = {
     
     GER_wilhelm_ii = { 
-		name = GER_wilhelm_ii
+		name = "Wilhelm II"
         country_leader = {
 			ideology = despotism
 			expire = "1954.1.1.1"
