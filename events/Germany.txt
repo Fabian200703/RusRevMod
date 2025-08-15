@@ -9,6 +9,7 @@ country event = {
 id = Germany.1
 title = Germany.1.t
 desc = Germany.1.d
+hidden = no
 picture = GFX_report_event_generic_battle
 
 is_triggerd_only = yes
