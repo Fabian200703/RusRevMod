@@ -1,4 +1,4 @@
-	characters= {
+	characters = {
     
     GER_wilhelm_ii = { 
 		name = GER_wilhelm_ii
@@ -15,5 +15,5 @@
 		}
 	}
 
-	
+
     }
