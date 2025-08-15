@@ -12,7 +12,7 @@ desc = Germany.1.d
 hidden = no
 picture = GFX_report_event_generic_battle
 fire_only_once = yes
-
+has_completed_focus = Create_a_polish_puppet_state
 option = {
     name = Germany.1.a
     ai_chance = {factor = 100}
