@@ -1,6 +1,6 @@
 ﻿capital = 603
 
-oob = "HNA_1936"
+oob = "GZH_1936"
 
 set_stability = 0.6
 set_war_support = 0.4
