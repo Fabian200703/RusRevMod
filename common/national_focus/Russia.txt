@@ -86,11 +86,12 @@ focus_tree = {
 		completion_reward = {add_popularity = {ideology = communism
 		popularity = 0.1}
 		}
+	}
 
 	focus = {
 		id = Kerensky_Offensive
 		prerequisite = {focus = Weaken_the_provisional_government}
-						{focus = Empower_the_Soviet_of_Petrograd}
+		prerequisite = {focus = Empower_the_Soviet_of_Petrograd}
 		x = 12
 		y = 3
 		search_filters = {FOCUS_FILTER_POLITICAL}
@@ -112,4 +113,3 @@ focus_tree = {
 
 	}
 
-	}
