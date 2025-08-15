@@ -130,17 +130,17 @@ focus_tree = {
 		x = 12
 		y = 5
 		cost = 10
-		completion_reward = { #hier event einfügen}
+		completion_reward = {}
 	}
 
 	focus = {
-		id = October_Revolution
+		id = Bolshevik_Coup
 		prerequisite = {focus = Unrest_in_Petrograd}
 		x = 12
 		y = 6
 		cost = 10
 		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = { #hier event einfügen
+		completion_reward = { 
 		}
 	}
 	

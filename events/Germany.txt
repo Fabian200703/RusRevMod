@@ -12,7 +12,6 @@ desc = Germany.1.d
 hidden = no
 picture = GFX_report_event_generic_battle
 fire_only_once = yes
-is_triggerd_only = yes
 
 option = {
     name = Germany.1.a
