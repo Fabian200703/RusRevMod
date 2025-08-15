@@ -27,7 +27,13 @@ set_popularities = {
 	
 }
 
-recruit_character = RSA_Nikolaus_II
+create_country_leader = {
+name = "Nikolaus II"
+	picture = "Nikolaus_II.dds"
+	ideology = despotism
+	traits = {emperor_and_autocrat_of_all_the_russias}
+	expire = "1960.1.1.1"
+}
 
 
 
