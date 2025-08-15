@@ -71,16 +71,17 @@ focus_tree = {
    		last_election = "1912.1.1"
     	election_frequency = 48
    		}
+
 		create_country_leader = {
 		name = "Georgi Jewgenjewitsch Lwow"
 		picture = "Lwow.dds"
 		ideology = liberalism
 		expire = "1960.1.1.1
-		traits= {}
 		id = -1
 		}
-		}
-		}
+	}
+}
+
 	focus = {
 		id = Empower_the_Soviet_of_Petrograd
 		prerequisite = {focus = February_Revolution}
