@@ -6,6 +6,7 @@ state={
 	state_category = town
 	history={
 		owner = RSA
+		controller = GER
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

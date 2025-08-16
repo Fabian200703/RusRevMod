@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = RSA
+			controller = GER
 		buildings = {
 			infrastructure = 2
 

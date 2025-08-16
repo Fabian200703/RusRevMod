@@ -13,6 +13,7 @@ state={
 			422 3
 		}
 		owner = RSA
+			controller = GER
 		buildings = {
 			infrastructure = 3
 

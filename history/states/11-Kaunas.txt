@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = RSA
+			controller = GER
 		victory_points = {
 			6296 5
 		}
