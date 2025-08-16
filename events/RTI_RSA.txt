@@ -15,7 +15,6 @@ country_event = {
 		date > 1917.11.06
 		tag = RSA
 	}
-
 	#SOV bekommen am 07.11.17 195, 208, 244
 	option = {
 		name = RSA_communist_civil_war.001.a
