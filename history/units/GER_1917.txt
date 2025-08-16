@@ -41,7 +41,7 @@ division_template = {
 }
 
 
-	##### Oberkommando des Heeres #####
+
 
 units = {
 
@@ -296,6 +296,16 @@ division = {
 		start_experience_factor = 0.3
 	}
 
+
+		division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 3576
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
 	
 }
 

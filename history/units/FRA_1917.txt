@@ -41,7 +41,7 @@ division_template = {
 }
 
 
-	##### Oberkommando des Heeres #####
+
 
 units = {
 
@@ -69,7 +69,7 @@ units = {
 		division = {	
 		division_name = {
 			is_name_ordered = 3
-			name_order = 23
+			name_order = 3
 		}
 		location = 11488
 		division_template = "Division d'Infanterie"

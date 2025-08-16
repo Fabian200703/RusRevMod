@@ -41,7 +41,7 @@ division_template = {
 }
 
 
-	##### Oberkommando des Heeres #####
+
 
 units = {
 
