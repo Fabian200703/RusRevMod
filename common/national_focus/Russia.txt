@@ -25,12 +25,12 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1500 }
 
 	focus = {
-		id = RSA_Can_Russia_Still_Win?
+		id = the_tsar_in_distress
 
 		icon = GFX_goal_generic_production2
 		x = 12
 		y = 0
-		cost = 2
+		cost = 10
 
 		available = {
 
@@ -38,113 +38,89 @@ focus_tree = {
 		
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-			add_ideas = RSA_low_moral_among_russian_soldiers
+				add_political_power = -100
 
 		}
 	}
 
 	focus = {
-		id = February_Revolution
-
-		prerequisite = { focus = RSA_Can_Russia_Still_Win? }
-		x = 12
+		id = Cooperation_with_the_black_hundreds
+		prerequisite = {focus = the_tsar_in_distress}
+		icon = GFX_goal_generic_production2
+		x = 10
 		y = 1
-		cost = 8
+		cost = 35
 
+		available = {
+
+		}
+		
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
+				add_popularity = {ideology = fascism
+				popularity = 0.1}
 
-			add_ideas = RSA_political_violence
-			set_politics = {
-   		ruling_party = democratic
-   		elections_allowed = yes
-   		last_election = "1912.1.1.1"
-    	election_frequency = 48
-   		}
-
-		create_country_leader = {
-		name = "Georgi Jewgenjewitsch Lwow"
-		picture = "Lwow.dds"
-		ideology = liberalism
-		expire = "1930.1.1.1"
-			}
 		}
 	}
 
 	focus = {
-		id = Empower_the_Soviet_of_Petrograd
-		prerequisite = {focus = February_Revolution}
-		x = 10
-		y = 2
-		cost = 7
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {add_popularity = {ideology = communism
-		popularity = 0.2}}
-		}
-
-	focus = {
-		id = Weaken_the_Monarchists
-		prerequisite = {focus = February_Revolution}
+		id = surpress_socialist_journalists
+		prerequisite = {focus = the_tsar_in_distress}
+		icon = GFX_goal_generic_production2
 		x = 14
-		y = 2
-		cost = 5
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {add_popularity = {ideology = democratic
-								popularity = 0.2}}
-	}
+		y = 1
+		cost = 35
 
-	focus = {
-		id = Kerensky_Offensive
-		prerequisite = {focus = Weaken_the_Monarchists}
-		prerequisite = {focus = Empower_the_Soviet_of_Petrograd}
-		x = 12
-		y = 3
-		cost = 5
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {remove_ideas = RSA_low_moral_among_russian_soldiers
-								add_ideas = RSA_Kerensky_Offensive}
-	
-	}
+		available = {
 
-	focus = {
-		id = July_Days
-		prerequisite = {focus = Kerensky_Offensive}
-		x = 12
-		y = 4
-		cost = 1
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = { #hier event einfügen
+		}
 		
-		create_country_leader = {
-		name = "Alexander Fyodorovich Kerensky"
-		picture = "Kerensky.dds"
-		ideology = liberalism
-		expire = "1930.1.1.1"
-			}
-		}
-	}
-
-	focus = {
-		id = Unrest_in_Petrograd
-		prerequisite = {focus = July_Days}
-		x = 12
-		y = 5
-		cost = 10
-		completion_reward = {}
-	}
-
-	focus = {
-		id = Bolshevik_Coup
-		prerequisite = {focus = Unrest_in_Petrograd}
-		x = 12
-		y = 6
-		cost = 10
 		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = { 
+		completion_reward = {
+				add_popularity = {ideology = communism
+				popularity = -0.1}
+
+		}
+	}
+
+focus = {
+		id = no_more_concessions_to_democrats
+		prerequisite = {focus = Cooperation_with_the_black_hundreds}
+		icon = GFX_goal_generic_production2
+		x = 9
+		y = 2
+		cost = 35
+
+		available = {
+
+		}
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+				add_popularity = {ideology = democratic
+				popularity = -0.1}
+
 		}
 	}
 	
+focus = {
+		id = defend_the_glory_of_russia
+		prerequisite = {focus = Cooperation_with_the_black_hundreds}
+		icon = GFX_goal_generic_production2
+		x = 11
+		y = 2
+		cost = 35
 
-	
+		available = {
+
+		}
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+				add_political_power = 100
+
+		}
 	}
+
+}
 
