@@ -63,7 +63,7 @@ units = {
 division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 10
+			name_order = 1
 		}
 		location = 698
 		division_template = "Division d'Infanterie"
@@ -73,7 +73,7 @@ division = {
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 10
+			name_order = 2
 		}
 		location = 11642
 		division_template = "Division d'Infanterie"
@@ -83,7 +83,7 @@ division = {
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 10
+			name_order = 3
 		}
 		location = 11488
 		division_template = "Division d'Infanterie"
@@ -93,7 +93,7 @@ division = {
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 10
+			name_order = 4
 		}
 		location = 9505
 		division_template = "Division d'Infanterie"
@@ -103,7 +103,7 @@ division = {
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 10
+			name_order = 5
 		}
 		location = 6545
 		division_template = "Division d'Infanterie"
@@ -113,7 +113,7 @@ division = {
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 10
+			name_order = 6
 		}
 		location = 11483
 		division_template = "Division d'Infanterie"
@@ -123,7 +123,7 @@ division = {
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 10
+			name_order = 7
 		}
 		location = 3546
 		division_template = "Division d'Infanterie"
@@ -133,7 +133,7 @@ division = {
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 10
+			name_order = 8
 		}
 		location = 9472
 		division_template = "Division d'Infanterie"
@@ -143,7 +143,7 @@ division = {
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 10
+			name_order = 9
 		}
 		location = 3447
 		division_template = "Division d'Infanterie"
@@ -163,7 +163,7 @@ division = {
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 10
+			name_order = 11
 		}
 		location = 6504
 		division_template = "Division d'Infanterie"
@@ -173,7 +173,7 @@ division = {
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 10
+			name_order = 12
 		}
 		location = 6446
 		division_template = "Division d'Infanterie"
