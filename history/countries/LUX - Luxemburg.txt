@@ -1,6 +1,6 @@
 ﻿capital = 8 # Luxembourg City
 
-oob = "LUX_1936"
+oob = "LUX_1917"
 
 # Starting tech
 set_technology = {
@@ -36,7 +36,7 @@ set_popularities = {
 
 create_country_leader = {
 name = "Marie Adelaide"
-	picture = "Marie-Adélaide.dds"
+	picture = "Marie_Adelaide.dds"
 	ideology = despotism
 	expire = "1960.1.1.1"
 }
