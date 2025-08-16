@@ -302,11 +302,30 @@ division = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 3576
+		location = 6560
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
 	
+division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 474
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 11391
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
 }
 
 
