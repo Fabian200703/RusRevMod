@@ -39,35 +39,18 @@ add_to_faction = GER
 add_to_faction = AUS
 add_to_faction = BUL
 
-if = {
-	limit = {
-		has_start_date < 1916.01.01.01
-	}
-
-	declare_war_on = {
+declare_war_on = {
 		target = RSA
 		type = annex_everything
 	}
-}
 
-if = {
-	limit = {
-		has_start_date < 1916.01.01.01
-	}
-
-	declare_war_on = {
+declare_war_on = {
 		target = FRA
 		type = annex_everything
 	}
-}
 
-if = {
-	limit = {
-		has_start_date < 1916.01.01.01
-	}
-
-	declare_war_on = {
+declare_war_on = {
 		target = ENG
 		type = annex_everything
 	}
-}
+
