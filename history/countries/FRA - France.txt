@@ -52,6 +52,7 @@ add_to_faction = ITA
 add_to_faction = YUG
 add_to_faction = MNT
 add_to_faction = JAP
+add_to_faction = ROM
 
 create_country_leader = {
 	name = "Paul Painleve"
