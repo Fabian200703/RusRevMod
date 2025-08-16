@@ -35,4 +35,10 @@ name = "Wilhelm II"
 }
 
 create_faction = Central Powers
-add_to_faction = GER AUS BUL
+add_to_faction = GER
+add_to_faction = AUS
+add_to_faction = BUL
+
+add_country_to_war = { target = RSA }
+add_country_to_war = { target = FRA }
+add_country_to_war = { target = ENG }
