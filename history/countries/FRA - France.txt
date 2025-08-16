@@ -48,6 +48,10 @@ add_to_faction = ENG
 add_to_faction = LUX
 add_to_faction = BEL
 add_to_faction = RSA
+add_to_faction = ITA
+add_to_faction = YUG
+add_to_faction = MNT
+add_to_faction = JAP
 
 create_country_leader = {
 	name = "Paul Painleve"
