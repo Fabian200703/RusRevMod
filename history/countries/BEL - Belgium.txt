@@ -41,4 +41,12 @@ set_popularities = {
 }
 
 
+create_country_leader = {
+name = "Comte de Broqueville"
+	picture = "CDB.dds"
+	ideology = conservatism
+	expire = "1960.1.1.1"
+}
+
+
 

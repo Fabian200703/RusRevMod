@@ -1,0 +1,42 @@
+﻿capital = 8 # Luxembourg City
+
+oob = "LUX_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+}
+
+
+set_war_support = 0.15
+set_stability = 0.7
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1916.6.3"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 15
+
+	
+	neutrality = 70
+	fascism = 12
+	communism = 3
+}
+
+create_country_leader = {
+name = "Marie Adelaide"
+	picture = "Marie-Adélaide.dds"
+	ideology = despotism
+	expire = "1960.1.1.1"
+}

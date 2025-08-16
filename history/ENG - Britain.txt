@@ -1,13 +1,11 @@
-﻿capital = 16 
-oob = "FRA_1917"
+capital = 126
 
 
-set_research_slots = 3
+set_research_slots = 4
 
-
+set_stability = 0.6
+set_war_support = 0.1
 add_command_power = 20
-
-
 
 # Starting tech
 set_technology = {
@@ -16,42 +14,42 @@ set_technology = {
 	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
-	tech_mountaineers = 1
 	tech_trucks = 1
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
+	basic_train = 1
 	trench_warfare = 1
 	fleet_in_being = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
 	fuel_silos = 1
 	fuel_refining = 1
-	basic_train = 1
-	basic_fortification_tech = 1
 }
+
+
+	
+
+set_convoys = 1000
+
 
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1916.1.1"
+	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	democratic = 74
-	fascism = 1
-	neutrality = 15
-	communism = 10
+	democratic = 97
+	fascism = 2
+	communism = 1
 }
-
-create_faction = "Entente"
-add_to_faction = ENG
-add_to_faction = LUX
-add_to_faction = BEL
-add_to_faction = RSA
 
 create_country_leader = {
-name = "Paul Painlevé"
-	picture = "Paul.dds"
-	ideology = liberalism
+name = "George Lloyd"
+	picture = "Lloyd.dds"
+	ideology = conservatism
 	expire = "1960.1.1.1"
 }
+
