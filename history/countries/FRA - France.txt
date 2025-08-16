@@ -50,7 +50,7 @@ add_to_faction = BEL
 add_to_faction = RSA
 
 create_country_leader = {
-name = "Paul Painleve"
+	name = "Paul Painleve"
 	picture = "Paul.dds"
 	ideology = liberalism
 	expire = "1960.1.1.1"
