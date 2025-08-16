@@ -6,15 +6,15 @@ add_namespace = Germany
 
 country_event = {
 
-id = Germany.1
-title = Germany.1.t
-desc = Germany.1.d
+id = Germany.70
+title = Germany.70.t
+desc = Germany.70.d
 hidden = no
 picture = GFX_report_event_generic_battle
 fire_only_once = yes
 has_completed_focus = Create_a_polish_puppet_state
 option = {
-    name = Germany.1.a
+    name = Germany.70.a
     ai_chance = {factor = 100}
 
     10 = {transfer_state_to = POL}

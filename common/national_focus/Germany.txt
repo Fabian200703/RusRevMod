@@ -16,7 +16,7 @@ focus = {
 	x = 12
 	y = 0
 	cost = 5
-	completion_reward = {GER = { country_event = { id = germany.1 days = 2 } }}
+	completion_reward = {GER = { country_event = { id = germany.70 } }}
 
 }
 
