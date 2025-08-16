@@ -67,7 +67,7 @@ focus_tree = {
 		id = surpress_socialist_journalists
 		prerequisite = {focus = the_tsar_in_distress}
 		icon = GFX_goal_generic_production2
-		x = 14
+		x = 13
 		y = 1
 		cost = 5
 
@@ -122,12 +122,14 @@ focus = {
 		}
 	}
 
-focus = {
-		id = defend_the_glory_of_russia
-		prerequisite = {focus = Cooperation_with_the_black_hundreds}
+
+
+	focus = {
+		id = punishments_for_insurgents
+		prerequisite = {focus = no_more_concessions_to_democrats}
 		icon = GFX_goal_generic_production2
-		x = 11
-		y = 2
+		x = 9
+		y = 3
 		cost = 5
 
 		available = {
@@ -141,8 +143,8 @@ focus = {
 		}
 	}
 
-focus = {
-		id = defend_the_glory_of_russia
+	focus = {
+		id = Embrace_the_Autocracy
 		prerequisite = {focus = defend_the_glory_of_russia}
 		icon = GFX_goal_generic_production2
 		x = 11
@@ -161,11 +163,11 @@ focus = {
 	}
 
 	focus = {
-		id = punishments_for_insurgents
-		prerequisite = {focus = no_more_concessions_to_democrats}
+		id = ban_political_organisations
+		prerequisite = {focus = surpress_socialist_journalists}
 		icon = GFX_goal_generic_production2
-		x = 9
-		y = 4
+		x = 13
+		y = 2
 		cost = 5
 
 		available = {
@@ -180,11 +182,11 @@ focus = {
 	}
 
 	focus = {
-		id = Embrace the Autocracy
-		prerequisite = {focus = defend_the_glory_of_russia}
+		id = tighten_the_conscription
+		prerequisite = {focus = ban_political_organisations}
 		icon = GFX_goal_generic_production2
-		x = 11
-		y = 4
+		x = 13
+		y = 3
 		cost = 5
 
 		available = {
@@ -198,10 +200,25 @@ focus = {
 		}
 	}
 
+		focus = {
+		id = Lead_the_army_in_person
+		prerequisite = {focus = tighten_the_conscription}
+		prerequisite = {focus = Embrace_the_Autocracy}
+		icon = GFX_goal_generic_production2
+		x = 12
+		y = 4
+		cost = 5
 
+		available = {
 
+		}
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+				add_political_power = 100
 
-
+		}
+	}
 
 
 
