@@ -12,6 +12,7 @@ state = {
 	history = {
 
 		owner = LUX
+				controller = GER
 		add_core_of = LUX
 
 		buildings = {
