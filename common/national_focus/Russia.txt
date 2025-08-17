@@ -234,7 +234,7 @@ focus = {
 	}
 
 		focus = {
-		id = Success_on the front
+		id = Success_on_the_front
 		prerequisite = {focus = Lead_the_army_in_person}
 		mutually_exclusive = { focus = Defeat_of_the_russian_army }
 		icon = GFX_goal_generic_production2
@@ -246,6 +246,101 @@ focus = {
 
 		}
 	}
+
+		focus = {
+		id = russian_army_invincible
+		prerequisite = {focus = Success_on_the_front}
+		icon = GFX_goal_generic_production2
+		x = 11
+		y = 6
+		cost = 5
+		completion_reward = {
+				add_political_power = 100
+
+		}
+	}
+
+
+		focus = {
+		id = Hegemon_of_the_east
+		prerequisite = {focus = russian_army_invincible}
+		icon = GFX_goal_generic_production2
+		x = 11
+		y = 7
+		cost = 5
+		completion_reward = {
+				add_political_power = 100
+
+		}
+	}
+
+		focus = {
+		id = Operation_Unthinkable
+		prerequisite = {focus = Hegemon_of_the_east}
+		icon = GFX_goal_generic_production2
+		x = 11
+		y = 8
+		cost = 5
+		completion_reward = {
+				add_political_power = 100
+
+		}
+	}
+
+		focus = {
+		id = Prepare_for_the_worst
+		prerequisite = {focus = Defeat_of_the_russian_army}
+		icon = GFX_goal_generic_production2
+		x = 13
+		y = 6
+		cost = 5
+		completion_reward = {
+				add_political_power = 100
+
+		}
+	}
+
+		focus = {
+		id = Last_Offensive
+		prerequisite = {focus = Prepare_for_the_worst}
+		icon = GFX_goal_generic_production2
+		x = 13
+		y = 7
+		cost = 5
+		completion_reward = {
+				add_political_power = 100
+
+		}
+	}
+
+		focus = {
+		id = The_war_is_lost
+		prerequisite = {focus = Last_Offensive}
+		icon = GFX_goal_generic_production2
+		x = 13
+		y = 8
+		cost = 5
+		completion_reward = {
+				add_political_power = 100
+
+		}
+	}
+
+		focus = {
+		id = Improve_logistics
+		prerequisite = {focus = Success_on_the_front}
+		icon = GFX_goal_generic_production2
+		x = 9
+		y = 6
+		cost = 5
+		completion_reward = {
+				add_political_power = 100
+
+		}
+	}
+
+
+
 
 
 }
