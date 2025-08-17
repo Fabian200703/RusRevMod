@@ -51,6 +51,9 @@ declare_war_on = {
 		type = annex_everything
 	}
 
-
+declare_war_on = {
+		target = TUR
+		type = annex_everything
+	}
 
 
