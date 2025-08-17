@@ -10,9 +10,7 @@ division_template = {
         infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-        infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+
 	}
 	
 	support = {
@@ -45,4 +43,36 @@ division_template = {
 
 units = {
 	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11858
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 937
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9821
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+
+
 }

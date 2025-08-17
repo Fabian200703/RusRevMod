@@ -44,5 +44,49 @@ division_template = {
 
 
 units = {
-	
+
+division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6706
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9617
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 637
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6747
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+
+
+
+
 }
