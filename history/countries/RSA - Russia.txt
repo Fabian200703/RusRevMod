@@ -56,4 +56,6 @@ declare_war_on = {
 		type = annex_everything
 	}
 
+recruit_character = RSA_Michail_Wassiljewitsch_Alexejew
+
 

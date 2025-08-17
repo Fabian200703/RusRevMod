@@ -1,6 +1,27 @@
 characters = {
 
+RSA_Michail_Wassiljewitsch_Alexejew = {
+		name= "Michail Wassiljewitsch Alexejew"
+		portraits = {
+			civilian = {
+				large=GFX_portrait_RSA_MichailWassiljewitschAlexejew.dds
+			}
+			army = {
+				large = GFX_portrait_RSA_MichailWassiljewitschAlexejew.dds
+				small = GFX_portrait_RSA_MichailWassiljewitschAlexejew.dds
+			}
+		}
 
+		field_marshal = {
+			traits = {  }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
 
+	}
 
 }
