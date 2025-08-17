@@ -65,3 +65,22 @@ declare_war_on = {
 		type = annex_everything
 	}
 
+declare_war_on = {
+		target = JAP
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = MNT
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = YUG
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = ROM
+		type = annex_everything
+	}

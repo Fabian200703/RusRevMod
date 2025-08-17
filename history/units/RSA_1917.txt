@@ -452,5 +452,34 @@ units = {
 		start_experience_factor = 0.3
 	}
 
+		division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 462
+		division_template = "Kavaleriyskaya diviziya"
+		start_experience_factor = 0.3
+	}
+
+		division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 12376
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.3
+	}
+
+		division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 4583
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.3
+	}
 
 }
