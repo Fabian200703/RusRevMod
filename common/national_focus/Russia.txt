@@ -220,6 +220,32 @@ focus = {
 		}
 	}
 
+		focus = {
+		id = Defeat_of_the_russian_army
+		prerequisite = {focus = Lead_the_army_in_person}
+		icon = GFX_goal_generic_production2
+		x = 13
+		y = 5
+		cost = 5
+		completion_reward = {
+				add_political_power = 100
+
+		}
+	}
+
+		focus = {
+		id = Success_on the front
+		prerequisite = {focus = Lead_the_army_in_person}
+		mutually_exclusive = { focus = Defeat_of_the_russian_army }
+		icon = GFX_goal_generic_production2
+		x = 11
+		y = 5
+		cost = 5
+		completion_reward = {
+				add_political_power = 100
+
+		}
+	}
 
 
 }
