@@ -20,7 +20,7 @@ recruit_character = MNT_blazo_jovanovic
 recruit_character = MNT_blazo_dukanovic
 
 create_country_leader = {
-name = "NikolaI"
+name = "Nikola I"
 	picture = "NikolaI.dds"
 	ideology = despotism
 	expire = "1960.1.1.1"
