@@ -33,3 +33,10 @@ set_popularities = {
 	communism = 2
 	neutrality = 60
 }
+
+create_country_leader = {
+name = "Peter I"
+	picture = "PeterI.dds"
+	ideology = despotism
+	expire = "1960.1.1.1"
+}

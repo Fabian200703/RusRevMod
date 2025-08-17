@@ -71,3 +71,10 @@ declare_war_on = {
 		target = ROM
 		type = annex_everything
 	}
+
+create_country_leader = {
+name = "Ferdinand I"
+	picture = "FerdiBUL.dds"
+	ideology = despotism
+	expire = "1960.1.1.1"
+}
