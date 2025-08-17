@@ -171,7 +171,7 @@ division = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 4888
+		location = 4088
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
@@ -181,7 +181,7 @@ division = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 4888
+		location = 4088
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}

@@ -265,15 +265,6 @@ division = {
 		start_experience_factor = 0.3
 	}
 
-		division = {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 8
-		}
-		location = 11081
-		division_template = "Kavallerie-Brigade"
-		start_experience_factor = 0.3
-	}
 
 		division = {	
 		division_name = {
@@ -628,15 +619,6 @@ division = {
 		start_experience_factor = 0.3
 	}
 
-		division = {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 8
-		}
-		location = 11081
-		division_template = "Kavallerie-Brigade"
-		start_experience_factor = 0.3
-	}
 
 		division = {	
 		division_name = {
