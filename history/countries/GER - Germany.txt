@@ -84,3 +84,8 @@ declare_war_on = {
 		target = ROM
 		type = annex_everything
 	}
+
+declare_war_on = {
+		target = ITA
+		type = annex_everything
+	}
