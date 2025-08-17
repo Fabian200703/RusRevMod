@@ -36,3 +36,48 @@ name = "Mohammed V"
 	ideology = despotism
 	expire = "1960.1.1.1"
 }
+
+declare_war_on = {
+		target = RSA
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = FRA
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = ENG
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = BEL
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = LUX
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = JAP
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = MNT
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = YUG
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = ROM
+		type = annex_everything
+	}
