@@ -178,6 +178,9 @@ GZH = "countries/Guizhou.txt"
 FCI = "countries/Fengtian Clique.txt"
 BLA = "countries/Black Army.txt"
 GRA = "countries/Green Amry.txt"
+SRA = "countries/Siberian Army.txt"
+SAN = "countries/Supreme Administration of the Northern Region.txt"
+CRA = "countries/Caucasian Russian Army.txt"
 
 #neutral US bloc during civil war in MTG
 MRT = "countries/Mauritania.txt"
