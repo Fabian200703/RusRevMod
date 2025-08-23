@@ -25,59 +25,45 @@ RSA_Michail_Wassiljewitsch_Alexejew = {
 	}
 
 
-
-RSA_Pjotr_Nikolayevich_Wrangel = {
-		name= "Pyotr Nikolayevich Wrangel"
-		portraits = {
-			civilian = {
-				large=GFX_portrait_RSA_MichailWassiljewitschAlexejew.dds
-			}
-			army = {
-				large = GFX_portrait_RSA_MichailWassiljewitschAlexejew.dds
-				small = GFX_portrait_RSA_MichailWassiljewitschAlexejew.dds
+RSA_Anton_Ivanovich_Denikin={
+		name="Anton Ivanovich Denikin"
+		portraits={
+			army={
+				large="GFX_Portrait_czechoslovakia_richard_tesarik"
+				small=GFX_portrait_CZE_richard_tesarzhik_small
 			}
 		}
-
-		corps_commander = {
-			traits = {  }
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=3
+		corps_commander={
+			traits={ armor_officer }
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
-
 	}
 
 
-RSA_Anton_Ivanovich_Denikin = {
-		name= "Anton Ivanovich Denikin"
-		portraits = {
-			civilian = {
-				large=GFX_portrait_RSA_MichailWassiljewitschAlexejew.dds
-			}
-			army = {
-				large = GFX_portrait_RSA_MichailWassiljewitschAlexejew.dds
-				small = GFX_portrait_RSA_MichailWassiljewitschAlexejew.dds
+RSA_Pjotr_Nikolayevich_Wrangel={
+		name="Pyotr Nikolayevich Wrangel"
+		portraits={
+			army={
+				large="GFX_Portrait_czechoslovakia_richard_tesarik"
+				small=GFX_portrait_CZE_richard_tesarzhik_small
 			}
 		}
-
-		corps_commander = {
-			traits = {  }
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=3
+		corps_commander={
+			traits={ 
+			 }
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
-
 	}
-
-
-
-
 
 
 
