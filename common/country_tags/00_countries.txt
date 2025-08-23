@@ -181,6 +181,7 @@ GRA = "countries/Green Amry.txt"
 SRA = "countries/Siberian Army.txt"
 SAN = "countries/Supreme Administration of the Northern Region.txt"
 CRA = "countries/Caucasian Russian Army.txt"
+BLW = "countries/Baltische Landeswehr.txt"
 
 #neutral US bloc during civil war in MTG
 MRT = "countries/Mauritania.txt"
