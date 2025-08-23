@@ -4,11 +4,11 @@ RSA_Michail_Wassiljewitsch_Alexejew = {
 		name= "Michail Wassiljewitsch Alexejew"
 		portraits = {
 			civilian = {
-				large=GFX_portrait_RSA_MichailWassiljewitschAlexejew.dds
+				large=MichailWassiljewitschAlexejew.dds
 			}
 			army = {
-				large = GFX_portrait_RSA_MichailWassiljewitschAlexejew.dds
-				small = GFX_portrait_RSA_MichailWassiljewitschAlexejew.dds
+				large = MichailWassiljewitschAlexejew.dds
+				small = MichailWassiljewitschAlexejew.dds
 			}
 		}
 
