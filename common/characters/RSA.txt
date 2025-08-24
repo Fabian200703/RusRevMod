@@ -30,7 +30,7 @@ RSA_Anton_Ivanovich_Denikin={
 		portraits={
 			army={
 				large="GFX_Portrait_czechoslovakia_richard_tesarik"
-				small=GFX_portrait_CZE_richard_tesarzhik_small
+				small="GFX_portrait_CZE_richard_tesarzhik_small"
 			}
 		}
 		corps_commander={
@@ -50,7 +50,7 @@ RSA_Pjotr_Nikolayevich_Wrangel={
 		portraits={
 			army={
 				large="GFX_Portrait_czechoslovakia_richard_tesarik"
-				small=GFX_portrait_CZE_richard_tesarzhik_small
+				small="GFX_portrait_CZE_richard_tesarzhik_small"
 			}
 		}
 		corps_commander={
