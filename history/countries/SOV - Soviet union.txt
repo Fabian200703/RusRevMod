@@ -42,16 +42,11 @@ set_technology = {
 	basic_train = 1
 }
 
-
-
-set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
-
-
 set_convoys = 50
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1933.7.1"
+	last_election = "1916.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
