@@ -29,7 +29,7 @@ set_popularities = {
 
 create_country_leader = {
 name = "Wilhelm II"
-	picture = "wilhelm_ii.dds"
+	picture = "wilhelmII.dds"
 	ideology = despotism
 	expire = "1960.1.1.1"
 }

@@ -31,4 +31,10 @@ set_popularities = {
 	communism = 2
 	neutrality = 73
 }
-recruit_character = ITA_vittorio_emanuele_iii
+
+create_country_leader = {
+name = "Victor Emmanuel III"
+	picture = "VictorIII"
+	ideology = despotism
+	expire = "1960.1.1.1"
+}
