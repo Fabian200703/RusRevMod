@@ -1,17 +1,4 @@
 ﻿
-set_party_name = {
-	ideology = communism
-	long_name = SOV_communism_party_russian_long
-	name = SOV_communism_party_russian
-}
-set_party_name = {
-	ideology = fascism
-	long_name = SOV_fascism_party_russian_long
-	name = SOV_fascism_party_russian
-}
-
-
-
 capital = 219
 
 starting_train_buffer = 3.0
