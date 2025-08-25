@@ -64,7 +64,7 @@ country_event = {
                 type = annex_everything
             }
 
-# Einheiten-Spawns
+			# Einheiten-Spawns
             create_unit = {
                 division = {
                     name = "1ya Diviziya"
@@ -136,11 +136,8 @@ country_event = {
                 }
             }
 
-
-
             change_tag_from = RSA
 
-            
         }
     }
 }
