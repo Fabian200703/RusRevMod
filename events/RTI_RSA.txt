@@ -63,9 +63,8 @@ country_event = {
                 target = RSA
                 type = annex_everything
             }
-            change_tag_from = RSA
 
-            # Einheiten-Spawns
+# Einheiten-Spawns
             create_unit = {
                 division = {
                     name = "1ya Diviziya"
@@ -136,6 +135,12 @@ country_event = {
                     template = "Opolcheniye Krasnoy Armii"
                 }
             }
+
+
+
+            change_tag_from = RSA
+
+            
         }
     }
 }
