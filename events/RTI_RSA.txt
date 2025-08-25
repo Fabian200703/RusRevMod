@@ -60,13 +60,20 @@ country_event = {
 		219 = {transfer_state_to= SOV
 		}
 
+		add_state_core = 195
+		add_state_core = 208
+		add_state_core = 244
+		add_state_core = 219
+
+
+
 		SOV = {
 			declare_war_on = {
 				target = RSA
 				type = annex_everything
 			}
 			change_tag_from = RSA
-		}
+		
 
 create_unit = {
         country = SOV
@@ -255,6 +262,7 @@ create_unit = {
     }
 
 
+		}
 	}
 }
 
