@@ -11,6 +11,7 @@ country_event = {
 	desc = RSA_communist_civil_war.001.desc
 	picture = GFX_report_event_generic_battle
 	hidden = no
+	fire_only_once = yes
 	trigger = {
 		date > 1917.11.06
 		tag = RSA
@@ -43,7 +44,6 @@ country_event = {
     is_triggered_only = yes
     hidden = no
 
-    immediate = { load_oob = SOV_1917.txt }
 
     option = {
         name = RSA_communist_civil_war.002.a
@@ -53,91 +53,47 @@ country_event = {
         244 = { transfer_state_to = SOV }
         219 = { transfer_state_to = SOV }
 
-        add_state_core = 195
-        add_state_core = 208
-        add_state_core = 244
-        add_state_core = 219
+        
 
         SOV = {
+			add_state_core = 195
+			add_state_core = 208
+			add_state_core = 244
+			add_state_core = 219
             declare_war_on = {
                 target = RSA
                 type = annex_everything
             }
-
-			# Einheiten-Spawns
-            create_unit = {
-                division = {
-                    name = "1ya Diviziya"
-                    location = 195
-                    template = "Opolcheniye Krasnoy Armii"
-                }
-            }
-            create_unit = {
-                division = {
-                    name = "2ya Diviziya"
-                    location = 208
-                    template = "Opolcheniye Krasnoy Armii"
-                }
-            }
-            create_unit = {
-                division = {
-                    name = "3ya Diviziya"
-                    location = 244
-                    template = "Opolcheniye Krasnoy Armii"
-                }
-            }
-            create_unit = {
-                division = {
-                    name = "4ya Diviziya"
-                    location = 219
-                    template = "Opolcheniye Krasnoy Armii"
-                }
-            }
-            create_unit = {
-                division = {
-                    name = "5ya Diviziya"
-                    location = 195
-                    template = "Opolcheniye Krasnoy Armii"
-                }
-            }
-            create_unit = {
-                division = {
-                    name = "6ya Diviziya"
-                    location = 208
-                    template = "Opolcheniye Krasnoy Armii"
-                }
-            }
-            create_unit = {
-                division = {
-                    name = "7ya Diviziya"
-                    location = 244
-                    template = "Opolcheniye Krasnoy Armii"
-                }
-            }
-            create_unit = {
-                division = {
-                    name = "8ya Diviziya"
-                    location = 219
-                    template = "Opolcheniye Krasnoy Armii"
-                }
-            }
-            create_unit = {
-                division = {
-                    name = "9ya Diviziya"
-                    location = 195
-                    template = "Opolcheniye Krasnoy Armii"
-                }
-            }
-            create_unit = {
-                division = {
-                    name = "10ya Diviziya"
-                    location = 208
-                    template = "Opolcheniye Krasnoy Armii"
-                }
-            }
-
+			load_oob = SOV_1917
+			195 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 6
+					owner = SOV
+				}
+			}
+			208 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 6
+					owner = SOV
+				}
+			}
+			244 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 6
+					owner = SOV
+				}
+			}
+			219 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 12
+					owner = SOV
+				}
+			}
             change_tag_from = RSA
-
         }
     }
 }
@@ -159,21 +115,52 @@ country_event = {
 	
 	option = {
 		name = RSA_communist_civil_war.003.a
-		195 = {
-			transfer_state_to = SOV
-		}
-		208 = {
-			transfer_state_to = SOV
-		}
-		244 = {
-			transfer_state_to = SOV
-		}
-		SOV = {
-			declare_war_on = {
-				target = RSA
-				type = annex_everything
+		195 = { transfer_state_to = SOV }
+        208 = { transfer_state_to = SOV }
+        244 = { transfer_state_to = SOV }
+        219 = { transfer_state_to = SOV }
+
+        
+
+        SOV = {
+			add_state_core = 195
+			add_state_core = 208
+			add_state_core = 244
+			add_state_core = 219
+            declare_war_on = {
+                target = RSA
+                type = annex_everything
+            }
+			load_oob = SOV_1917
+			195 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 6
+					owner = SOV
+				}
 			}
-		}
+			208 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 6
+					owner = SOV
+				}
+			}
+			244 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 6
+					owner = SOV
+				}
+			}
+			219 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 12
+					owner = SOV
+				}
+			}
+        }
 	}
 }
 
