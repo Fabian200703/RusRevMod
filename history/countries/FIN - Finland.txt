@@ -2,7 +2,7 @@
 
 set_oob = "FIN_1917"
 
-
+puppet = RSA
 set_research_slots = 3
 
 set_technology = {
