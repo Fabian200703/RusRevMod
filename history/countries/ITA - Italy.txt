@@ -34,7 +34,7 @@ set_popularities = {
 
 create_country_leader = {
 name = "Victor Emmanuel III"
-	picture = "VictorIII"
+	picture = "VictorIII.dds"
 	ideology = despotism
 	expire = "1960.1.1.1"
 }
