@@ -4,6 +4,19 @@ add_namespace = RSA_democratic_civil_war
 add_namespace = RSA_anarchist_civil_war
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+#CIVIL WAR EVENTS
 #Communist
 country_event = {
 	id = RSA_communist_civil_war.001
