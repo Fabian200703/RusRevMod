@@ -4,17 +4,24 @@ RSA_CIVIL_WAR = {
 		priority = 10
 
 		icon = generic_ignite_civil_war
-
-		available = {
-			hidden_trigger = { always = no }
+		
+		activation = {
+			
 		}
-
-		days_mission_timeout = 10
-		#85
-
+		available = {
+			has_war = yes
+		}
+		cancel_trigger = {
+			has_war = no
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = yes
+		days_mission_timeout = 85
 
-
+		selectable_mission = yes
+		complete_effect = {
+			country_event = RSA_communist_civil_war.002
+		}
 		timeout_effect = {
 			country_event = RSA_communist_civil_war.001
 		}
