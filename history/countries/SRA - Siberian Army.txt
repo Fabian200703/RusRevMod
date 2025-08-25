@@ -1,6 +1,4 @@
-﻿
-
-oob = "SRA_1917"
+﻿oob = "SRA_1917"
 
 set_research_slots = 3
 
@@ -20,14 +18,25 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1917.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 
 set_popularities = {
 	democratic = 20
 	fascism = 30
-	communism = 50
+	communism = 10
+	neutrality = 40
 }
 
-
+create_country_leader = {
+name = "Alexander Vasilyevich Kolchak"
+	picture = "Kolchak.dds"
+	ideology = despotism
+	expire = "1960.1.1.1"
+}
 
 
