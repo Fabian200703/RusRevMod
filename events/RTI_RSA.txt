@@ -36,234 +36,108 @@ country_event = {
 
 
 country_event = {
-	id = RSA_communist_civil_war.002
-	title = RSA_communist_civil_war.002.t
-	desc = RSA_communist_civil_war.002.desc
-	picture = GFX_report_event_generic_battle
-	is_triggered_only = yes
-	hidden = no
+    id = RSA_communist_civil_war.002
+    title = RSA_communist_civil_war.002.t
+    desc = RSA_communist_civil_war.002.desc
+    picture = GFX_report_event_generic_battle
+    is_triggered_only = yes
+    hidden = no
 
-	#SOV bekommen am 07.11.17 195, 208, 244
-	immediate = {load_oob = SOV_1917.txt}
-	option = {
-		name = RSA_communist_civil_war.002.a
-		195 = {
-			transfer_state_to = SOV
-		}
-		208 = {
-			transfer_state_to = SOV
-		}
-		244 = {
-			transfer_state_to = SOV
-		}
+    immediate = { load_oob = SOV_1917.txt }
 
-		219 = {transfer_state_to= SOV
-		}
+    option = {
+        name = RSA_communist_civil_war.002.a
 
-		add_state_core = 195
-		add_state_core = 208
-		add_state_core = 244
-		add_state_core = 219
+        195 = { transfer_state_to = SOV }
+        208 = { transfer_state_to = SOV }
+        244 = { transfer_state_to = SOV }
+        219 = { transfer_state_to = SOV }
 
+        add_state_core = 195
+        add_state_core = 208
+        add_state_core = 244
+        add_state_core = 219
 
+        SOV = {
+            declare_war_on = {
+                target = RSA
+                type = annex_everything
+            }
+            change_tag_from = RSA
 
-		SOV = {
-			declare_war_on = {
-				target = RSA
-				type = annex_everything
-			}
-			change_tag_from = RSA
-		
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 3151 } 
+            # Einheiten-Spawns
+            create_unit = {
+                division = {
+                    name = "1ya Diviziya"
+                    location = 195
+                    template = "Opolcheniye Krasnoy Armii"
+                }
+            }
+            create_unit = {
+                division = {
+                    name = "2ya Diviziya"
+                    location = 208
+                    template = "Opolcheniye Krasnoy Armii"
+                }
+            }
+            create_unit = {
+                division = {
+                    name = "3ya Diviziya"
+                    location = 244
+                    template = "Opolcheniye Krasnoy Armii"
+                }
+            }
+            create_unit = {
+                division = {
+                    name = "4ya Diviziya"
+                    location = 219
+                    template = "Opolcheniye Krasnoy Armii"
+                }
+            }
+            create_unit = {
+                division = {
+                    name = "5ya Diviziya"
+                    location = 195
+                    template = "Opolcheniye Krasnoy Armii"
+                }
+            }
+            create_unit = {
+                division = {
+                    name = "6ya Diviziya"
+                    location = 208
+                    template = "Opolcheniye Krasnoy Armii"
+                }
+            }
+            create_unit = {
+                division = {
+                    name = "7ya Diviziya"
+                    location = 244
+                    template = "Opolcheniye Krasnoy Armii"
+                }
+            }
+            create_unit = {
+                division = {
+                    name = "8ya Diviziya"
+                    location = 219
+                    template = "Opolcheniye Krasnoy Armii"
+                }
+            }
+            create_unit = {
+                division = {
+                    name = "9ya Diviziya"
+                    location = 195
+                    template = "Opolcheniye Krasnoy Armii"
+                }
+            }
+            create_unit = {
+                division = {
+                    name = "10ya Diviziya"
+                    location = 208
+                    template = "Opolcheniye Krasnoy Armii"
+                }
+            }
+        }
     }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 149 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 104 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 126 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 3120 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 6139 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 9098 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 11139 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 6197 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 3072 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 6035 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 3110 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 11174 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 70 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 366 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 3358 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 3259 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 11236 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 6283 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 9378 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 301 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 3290 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 9235 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 11217 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 350 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 11268 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 9395 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 6290 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 6348 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 3327 } 
-    }
-
-create_unit = {
-        country = SOV
-        template = Opolcheniye Krasnoy Armii
-        location = { province = 401 } 
-    }
-
-
-		}
-	}
 }
 
 
