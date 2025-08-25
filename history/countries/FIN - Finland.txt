@@ -1,0 +1,44 @@
+﻿capital = 111
+
+set_oob = "FIN_1917"
+
+
+set_research_slots = 3
+
+puppet = RSA
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	gw_artillery = 1			
+	interwar_antiair = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	basic_train = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1917.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 30
+	communism = 5
+	neutrality = 60
+	fascism = 5
+	
+}
+
+create_country_leader = {
+name = "Nikolaus II"
+	picture = "Nikolaus_II.dds"
+	ideology = despotism
+	traits = {emperor_and_autocrat_of_all_the_russias}
+	expire = "1960.1.1.1"
+}
