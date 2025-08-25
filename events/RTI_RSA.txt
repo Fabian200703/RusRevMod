@@ -251,6 +251,14 @@ country_event = {
 					type = annex_everything
 				}
 			}
+			257 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 10
+					owner = SOV
+				}
+			}
+
 			change_tag_from = RSA
 			change_tag_from = SOV
 			change_tag_from = BLA
@@ -300,6 +308,13 @@ country_event = {
 				declare_war_on = {
 					target = BLA
 					type = annex_everything
+				}
+			}
+			257 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 10
+					owner = SOV
 				}
 			}
 		}
@@ -385,6 +400,13 @@ country_event = {
 					type = annex_everything
 				}
 			}
+			227 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 10
+					owner = SOV
+				}
+			}
 			change_tag_from = RSA
 			change_tag_from = SOV
 			change_tag_from = GRA
@@ -440,6 +462,13 @@ country_event = {
 				declare_war_on = {
 					target = GRA
 					type = annex_everything
+				}
+			}
+			227 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 10
+					owner = SOV
 				}
 			}
 		}
