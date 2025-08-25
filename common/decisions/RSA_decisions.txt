@@ -1,0 +1,22 @@
+RSA_CIVIL_WAR = {
+	RSA_capture_cities = {
+
+		priority = 10
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 10
+		#85
+
+		is_good = yes
+
+
+		timeout_effect = {
+			country_event = RSA_communist_civil_war.001
+		}
+	}
+}
