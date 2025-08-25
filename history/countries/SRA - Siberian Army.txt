@@ -1,6 +1,4 @@
-﻿
-
-oob = "SRA_1917"
+﻿oob = "SRA_1917"
 
 set_research_slots = 3
 
