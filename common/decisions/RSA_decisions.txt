@@ -4,12 +4,13 @@ RSA_CIVIL_WAR = {
 		priority = 10
 
 		icon = generic_ignite_civil_war
-		
-		activation = {
-			
-		}
+	
 		available = {
 			has_war = yes
+			AND = {
+				188 = { is_fully_controlled_by = RSA }
+				10 = { is_fully_controlled_by = RSA }
+			}
 		}
 		cancel_trigger = {
 			has_war = no
