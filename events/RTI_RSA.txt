@@ -44,7 +44,7 @@ country_event = {
 	hidden = no
 
 	#SOV bekommen am 07.11.17 195, 208, 244
-
+	immediate = {load_oob = SOV_1917}
 	option = {
 		name = RSA_communist_civil_war.002.a
 		195 = {
@@ -56,6 +56,10 @@ country_event = {
 		244 = {
 			transfer_state_to = SOV
 		}
+
+		219 = {transfer_state_to= SOV
+		}
+
 		SOV = {
 			declare_war_on = {
 				target = RSA
@@ -63,6 +67,194 @@ country_event = {
 			}
 			change_tag_from = RSA
 		}
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 3151 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 149 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 104 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 126 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 3120 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 6139 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 9098 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 11139 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 6197 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 3072 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 6035 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 3110 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 11174 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 70 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 366 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 3358 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 3259 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 11236 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 6283 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 9378 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 301 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 3290 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 9235 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 11217 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 350 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 11268 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 9395 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 6290 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 6348 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 3327 } 
+    }
+
+create_unit = {
+        country = SOV
+        template = Opolcheniye Krasnoy Armii
+        location = { province = 401 } 
+    }
+
+
 	}
 }
 
@@ -341,7 +533,7 @@ country_event = {
 
 
 
-	#SOV bekommen am 07.11.17 195, 208, 244
+	#SOV bekommen am 07.11.17 195, 208, 244, 219
 
 	
 	option = {
