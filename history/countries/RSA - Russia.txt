@@ -58,4 +58,32 @@ declare_war_on = {
 
 recruit_character = RSA_Michail_Wassiljewitsch_Alexejew
 
+if = {
 
+limit = {
+
+OR = {
+
+has_dlc = "Together for Victory"
+
+has_dlc = "Man the Guns"
+
+}
+
+}
+
+set_autonomy = {
+
+target = FIN
+
+autonomous_state = autonomy_colony
+
+}
+
+else = {
+
+puppet = FIN
+
+}
+
+}

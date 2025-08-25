@@ -3,9 +3,6 @@
 set_oob = "FIN_1917"
 
 
-set_autonomy = puppet
-target = RSA
-
 set_research_slots = 3
 
 set_technology = {
