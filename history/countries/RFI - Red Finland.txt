@@ -1,6 +1,6 @@
 ﻿capital = 111
 
-set_oob = "FIN_1917"
+set_oob = "RFI_1917"
 
 
 set_research_slots = 3
@@ -20,15 +20,15 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1917.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 30
-	communism = 5
-	neutrality = 60
+	communism = 60
+	neutrality = 5
 	fascism = 5
 	
 }

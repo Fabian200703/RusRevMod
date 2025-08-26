@@ -6,10 +6,10 @@ country_event = {
 	hidden = no
 	fire_only_once = yes
 	trigger = {
-		date > 1917.12.06
+		date > 1917.11.03
 		tag = FIN
 	}
-	
+	#RFI bekommen am 07.11.17 111, 927, 928
 	option = {
 		name = FIN_communist_civil_war.001.a
 		ROOT = {
@@ -41,49 +41,49 @@ country_event = {
     option = {
         name = FIN_communist_civil_war.002.a
 
-        111 = { transfer_state_to = FIN }
-        927 = { transfer_state_to = FIN }
-        930 = { transfer_state_to = FIN }
-        928 = { transfer_state_to = FIN }
+        111 = { transfer_state_to = RFI }
+        927 = { transfer_state_to = RFI }
+        928 = { transfer_state_to = RFI }
+        930 = { transfer_state_to = RFI }
 
         
 
-        FIN = {
+        RFI = {
 			add_state_core = 111
-			add_state_core = 208
+			add_state_core = 927
 			add_state_core = 928
 			add_state_core = 930
             declare_war_on = {
                 target = FIN
                 type = annex_everything
             }
-			load_oob = FIN_1917
+			load_oob = RFI_1917
 			111 = {
 				create_unit = {
 					division = "division_template = \"Infantry Division\""
-					count = 6
-					owner = FIN
+					count = 3
+					owner = RFI
 				}
 			}
 			927 = {
 				create_unit = {
 					division = "division_template = \"Infantry Division\""
-					count = 6
-					owner = FIN
+					count = 3
+					owner = RFI
 				}
 			}
 			928 = {
 				create_unit = {
 					division = "division_template = \"Infantry Division\""
-					count = 6
-					owner = FIN
+					count = 3
+					owner = RFI
 				}
 			}
 			930 = {
 				create_unit = {
 					division = "division_template = \"Infantry Division\""
-					count = 12
-					owner = FIN
+					count = 3
+					owner = RFI
 				}
 			}
             change_tag_from = FIN
@@ -103,54 +103,54 @@ country_event = {
 
 
 
-	
+	#RFI bekommen am 07.11.17 111, 927, 928
 
 	
 	option = {
 		name = FIN_communist_civil_war.003.a
-		111 = { transfer_state_to = FIN }
-        208 = { transfer_state_to = FIN }
-        928 = { transfer_state_to = FIN }
-        930 = { transfer_state_to = FIN }
+		111 = { transfer_state_to = RFI }
+        927 = { transfer_state_to = RFI }
+        928 = { transfer_state_to = RFI }
+        930 = { transfer_state_to = RFI }
 
         
 
-        FIN = {
+        RFI = {
 			add_state_core = 111
-			add_state_core = 208
+			add_state_core = 927
 			add_state_core = 928
 			add_state_core = 930
             declare_war_on = {
                 target = FIN
                 type = annex_everything
             }
-			load_oob = FIN_1917
+			load_oob = RFI_1917
 			111 = {
 				create_unit = {
-					division = "division_template = \"Opolcheniye Krasnoy Armii\""
-					count = 6
-					owner = FIN
+					division = "division_template = \"Infantry Division\""
+					count = 3
+					owner = RFI
 				}
 			}
-			208 = {
+			927 = {
 				create_unit = {
-					division = "division_template = \"Opolcheniye Krasnoy Armii\""
-					count = 6
-					owner = FIN
+					division = "division_template = \"Infantry Division\""
+					count = 3
+					owner = RFI
 				}
 			}
 			928 = {
 				create_unit = {
-					division = "division_template = \"Opolcheniye Krasnoy Armii\""
-					count = 6
-					owner = FIN
+					division = "division_template = \"Infantry Division\""
+					count = 3
+					owner = RFI
 				}
 			}
 			930 = {
 				create_unit = {
-					division = "division_template = \"Opolcheniye Krasnoy Armii\""
-					count = 12
-					owner = FIN
+					division = "division_template = \"Infantry Division\""
+					count = 3
+					owner = RFI
 				}
 			}
         }
