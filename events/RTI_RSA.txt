@@ -63,7 +63,8 @@ country_event = {
         208 = { transfer_state_to = SOV }
         244 = { transfer_state_to = SOV }
         219 = { transfer_state_to = SOV }
-
+		add_ideas = Fallen_Government
+		country_event = { id = CRA.001 } 
 		create_country_leader = {
 		name = "Fallen Government"
 		picture = "Regencja.dds"
@@ -138,7 +139,8 @@ country_event = {
         244 = { transfer_state_to = SOV }
         219 = { transfer_state_to = SOV }
 		create_faction = "Eastern Entente"
-	
+		country_event = { id = CRA.001 } 
+		add_ideas = Fallen_Government
         create_country_leader = {
 		name = "Fallen Government"
 		picture = "Regencja.dds"

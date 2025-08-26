@@ -1,0 +1,31 @@
+add_namespace = CRA
+
+
+
+country_event = {
+
+id = CRA.001
+title = CRA.001.t
+desc = CRA.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+option = {
+    name = CRA.001.a
+    ai_chance = {factor = 100}
+
+    827 = {transfer_state_to = CRA}
+    828 = {transfer_state_to = CRA}
+    821 = {transfer_state_to = CRA}
+    232 = {transfer_state_to = CRA}
+    235 = {transfer_state_to = CRA}
+    237 = {transfer_state_to = CRA}
+    217 = {transfer_state_to = CRA}
+    236 = {transfer_state_to = CRA}
+    238 = {transfer_state_to = CRA}
+    137 = {transfer_state_to = CRA}                                    
+                                
+                                }
+
+}
