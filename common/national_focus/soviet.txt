@@ -29,7 +29,32 @@ focus = {
 		}
 	}
 
-
+focus = {
+		id = SOV_raise_the_workers
+		icon = GFX_focus_GER_the_peoples_victory
+		x = 24
+		y = 0
+		cost = 1
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+				
+			195 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 3
+					owner = SOV
+				}
+			}
+			219 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 3
+					owner = SOV
+				}
+			}
+		}
+	}
 
 
 
