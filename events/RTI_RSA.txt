@@ -57,8 +57,8 @@ country_event = {
 
     option = {
         name = RSA_communist_civil_war.002.a
-		create_faction = "Bolshevik Movement"
-		add_to_faction = SOV
+		create_faction = "Eastern Entente"
+
         195 = { transfer_state_to = SOV }
         208 = { transfer_state_to = SOV }
         244 = { transfer_state_to = SOV }
@@ -71,6 +71,7 @@ country_event = {
 			add_state_core = 208
 			add_state_core = 244
 			add_state_core = 219
+			create_faction = "Bolshevik Movement"
             declare_war_on = {
                 target = RSA
                 type = annex_everything
@@ -130,8 +131,8 @@ country_event = {
         208 = { transfer_state_to = SOV }
         244 = { transfer_state_to = SOV }
         219 = { transfer_state_to = SOV }
-		create_faction = "Bolshevik Movement"
-		add_to_faction = SOV
+		create_faction = "Eastern Entente"
+	
         
 
         SOV = {
@@ -139,6 +140,7 @@ country_event = {
 			add_state_core = 208
 			add_state_core = 244
 			add_state_core = 219
+			create_faction = "Bolshevik Movement"
             declare_war_on = {
                 target = RSA
                 type = annex_everything
