@@ -57,7 +57,8 @@ country_event = {
 
     option = {
         name = RSA_communist_civil_war.002.a
-
+		create_faction = "Bolshevik Movement"
+		add_to_faction = SOV
         195 = { transfer_state_to = SOV }
         208 = { transfer_state_to = SOV }
         244 = { transfer_state_to = SOV }
@@ -129,7 +130,8 @@ country_event = {
         208 = { transfer_state_to = SOV }
         244 = { transfer_state_to = SOV }
         219 = { transfer_state_to = SOV }
-
+		create_faction = "Bolshevik Movement"
+		add_to_faction = SOV
         
 
         SOV = {
