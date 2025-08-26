@@ -67,6 +67,7 @@ country_event = {
 		country_event = { id = CRA.001 } 
 		country_event = { id = DKO.001 }
 		country_event = { id = KCK.001 }
+		country_event = { id = SRA.001 }
 		create_country_leader = {
 		name = "Fallen Government"
 		picture = "Regencja.dds"
@@ -144,6 +145,7 @@ country_event = {
 		country_event = { id = CRA.001 } 
 		country_event = { id = DKO.001 }
 		country_event = { id = KCK.001 }
+		country_event = { id = SRA.001 }
 
 		add_ideas = Fallen_Government
         create_country_leader = {

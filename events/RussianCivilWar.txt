@@ -97,3 +97,87 @@ option = {
                                 }
 
 }
+
+
+add_namespace = SAN
+
+country_event = {
+
+id = SAN.001
+title = SAN.001.t
+desc = SAN.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+option = {
+    name = SAN.001.a
+    ai_chance = {factor = 100}
+
+    213 = {transfer_state_to = SAN}
+    214 = {transfer_state_to = SAN}
+    215 = {transfer_state_to = SAN}
+    825 = {transfer_state_to = SAN}
+
+    SAN = {
+        add_state_core = 213
+        add_state_core = 214
+        add_state_core = 215
+        add_state_core = 825        
+    }
+                                   
+                                
+                                }
+
+}
+
+
+add_namespace = SRA
+
+country_event = {
+
+id = SRA.001
+title = SRA.001.t
+desc = SRA.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+option = {
+    name = SRA.001.a
+    ai_chance = {factor = 100}
+
+    408 = {transfer_state_to = SRA}
+    409 = {transfer_state_to = SRA}
+    657 = {transfer_state_to = SRA}
+    560 = {transfer_state_to = SRA}
+    655 = {transfer_state_to = SRA}
+    561 = {transfer_state_to = SRA}
+    563 = {transfer_state_to = SRA}
+    564 = {transfer_state_to = SRA}
+    566 = {transfer_state_to = SRA}
+    565 = {transfer_state_to = SRA}
+
+
+    SRA = {
+        add_state_core = 213
+        add_state_core = 214
+        add_state_core = 215
+        add_state_core = 825 
+        add_state_core = 213
+        add_state_core = 214
+        add_state_core = 215
+        add_state_core = 825 
+        add_state_core = 213
+        add_state_core = 214
+
+
+
+
+
+    }
+                                   
+                                
+                                }
+
+}
