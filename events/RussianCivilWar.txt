@@ -199,6 +199,7 @@ is_triggered_only = yes
 	}
 option = {
         name = TBL.001.a
+
 surrender_limit = -0.9
 
 white_peace = BUL
@@ -250,6 +251,12 @@ white_peace = POL
 200 = { transfer_state_to = UKR}
 259 = { transfer_state_to = UKR }
 225 = { transfer_state_to = UKR}
+193 = { transfer_state_to = UKR}
+
+229 = { transfer_state_to = TCR}
+231 = { transfer_state_to = TCR}
+230 = { transfer_state_to = TCR}
+826 = { transfer_state_to = TCR}
 
 DKO = {
 
@@ -258,12 +265,25 @@ declare_war_on = {
                 type = annex_everything
             }
 
+declare_war_on = {
+                target = RSA
+                type = annex_everything
+            }
+
+
 }
+DKO = {
+
 
 CRA = {
 
 declare_war_on = {
                 target = SOV
+                type = annex_everything
+            }
+
+declare_war_on = {
+                target = RSA
                 type = annex_everything
             }
 
@@ -276,6 +296,12 @@ declare_war_on = {
                 type = annex_everything
             }
 
+declare_war_on = {
+                target = RSA
+                type = annex_everything
+            }
+
+
 }
 
 SRA = {
@@ -284,6 +310,12 @@ declare_war_on = {
                 target = SOV
                 type = annex_everything
             }
+
+declare_war_on = {
+                target = RSA
+                type = annex_everything
+            }
+
 
 }
 
@@ -348,8 +380,16 @@ UKR = {
 			add_state_core = 200
             add_state_core = 259
 			add_state_core = 225
+            add_state_core = 193
 
 
+}
+
+TCR = {
+add_state_core = 229
+add_state_core = 231
+add_state_core = 230
+add_state_core = 826
 }
 
 GER = {

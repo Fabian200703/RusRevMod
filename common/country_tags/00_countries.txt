@@ -185,6 +185,7 @@ BLW = "countries/Baltische Landeswehr.txt"
 DKO = "countries/Don Cossacks.txt"
 KCK = "countries/Kuban Cossacks.txt"
 RFI = "countries/Red Finland.txt"
+TCR = "countries/Transcaucasia.txt"
 
 #neutral US bloc during civil war in MTG
 MRT = "countries/Mauritania.txt"
