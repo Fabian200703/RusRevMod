@@ -197,6 +197,8 @@ is_triggered_only = yes
 		date > 1918.18.03
 		tag = RSA
 	}
+option = {
+        name = TBL.001.a
 surrender_limit = -0.9
 
 white_peace = BUL
@@ -248,22 +250,6 @@ white_peace = POL
 200 = { transfer_state_to = UKR}
 259 = { transfer_state_to = UKR }
 225 = { transfer_state_to = UKR}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 DKO = {
 
@@ -390,4 +376,5 @@ GER = {
 
 
 
+}
 }
