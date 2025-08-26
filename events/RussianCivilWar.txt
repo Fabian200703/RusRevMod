@@ -181,3 +181,213 @@ option = {
                                 }
 
 }
+
+add_namespace = TBL
+
+country_event = {
+
+id = TBL.001
+title = TBL.001.t
+desc = TBL.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+	trigger = {
+		date > 1918.18.03
+		tag = RSA
+	}
+surrender_limit = -0.9
+
+white_peace = BUL
+white_peace = GER
+white_peace = AUS
+white_peace = TUR
+white_peace = POL
+
+813 = { transfer_state_to = EST }
+812 = { transfer_state_to = EST }
+811 = { transfer_state_to = EST }
+13 = { transfer_state_to = EST }
+191 = { transfer_state_to = EST }
+
+815 = { transfer_state_to = LIT }
+784 = { transfer_state_to = LIT }
+11 = { transfer_state_to = LIT }
+814 = { transfer_state_to = LIT }
+189 = { transfer_state_to = LIT }
+
+810 = { transfer_state_to = LAT}
+809 = { transfer_state_to = LAT }
+12 = { transfer_state_to = LAT}
+190 = { transfer_state_to = LAT }
+808 = { transfer_state_to = LAT }
+
+241 = { transfer_state_to = BLR}
+204 = { transfer_state_to = BLR }
+194 = { transfer_state_to = BLR}
+94 = { transfer_state_to = BLR }
+95 = { transfer_state_to = BLR }
+206 = { transfer_state_to = BLR}
+207 = { transfer_state_to = BLR }
+96 = { transfer_state_to = BLR}
+
+93 = { transfer_state_to =  UKR}
+202 = { transfer_state_to = UKR}
+203 = { transfer_state_to = UKR}
+834 = { transfer_state_to = UKR}
+192 = { transfer_state_to = UKR }
+1018= { transfer_state_to = UKR}
+221 = { transfer_state_to = UKR }
+201 = { transfer_state_to = UKR}
+199 = { transfer_state_to = UKR}
+198 = { transfer_state_to = UKR }
+197 = { transfer_state_to = UKR}
+226 = { transfer_state_to = UKR }
+196 = { transfer_state_to = UKR }
+200 = { transfer_state_to = UKR}
+259 = { transfer_state_to = UKR }
+225 = { transfer_state_to = UKR}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DKO = {
+
+declare_war_on = {
+                target = SOV
+                type = annex_everything
+            }
+
+}
+
+CRA = {
+
+declare_war_on = {
+                target = SOV
+                type = annex_everything
+            }
+
+}
+
+KCK = {
+
+declare_war_on = {
+                target = SOV
+                type = annex_everything
+            }
+
+}
+
+SRA = {
+
+declare_war_on = {
+                target = SOV
+                type = annex_everything
+            }
+
+}
+
+
+EST = {
+
+            add_state_core = 813
+        	add_state_core = 812
+			add_state_core = 811
+			add_state_core = 13
+			add_state_core = 191
+
+}
+
+LIT = {
+
+            add_state_core = 815
+        	add_state_core = 784
+			add_state_core = 11
+			add_state_core = 814
+			add_state_core = 189
+
+}
+
+LAT = {
+
+            add_state_core = 810
+        	add_state_core = 809
+			add_state_core = 12
+			add_state_core = 190
+			add_state_core = 808
+
+}
+
+BLR = {
+
+            add_state_core = 241
+        	add_state_core = 204
+			add_state_core = 194
+			add_state_core = 94
+			add_state_core = 95
+            add_state_core = 206
+			add_state_core = 207
+			add_state_core = 96
+
+}
+
+UKR = {
+
+            add_state_core = 93
+        	add_state_core = 202
+			add_state_core = 203
+			add_state_core = 834
+			add_state_core = 192
+            add_state_core = 1018
+			add_state_core = 201
+			add_state_core = 199
+            add_state_core = 198
+        	add_state_core = 197
+			add_state_core = 226
+			add_state_core = 196
+			add_state_core = 200
+            add_state_core = 259
+			add_state_core = 225
+
+
+}
+
+GER = {
+
+    puppet = { target = EST
+                end_wars = no}
+
+    puppet = { target = LAT
+                end_wars = no}
+
+    puppet = { target = BLR
+                end_wars = no}
+
+    puppet = { target = UKR
+                end_wars = no}
+
+    puppet = { target = LIT
+                end_wars = no}
+
+}
+
+
+
+
+
+
+}
