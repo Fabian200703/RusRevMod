@@ -21,5 +21,41 @@ ideas = {
 
 			}
 		}
+
+		Revolutionary_Spirit = {
+
+			picture = generic_morale_bonus
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+                    offence = 0.3
+					army_speed_factor = 0.1	
+
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

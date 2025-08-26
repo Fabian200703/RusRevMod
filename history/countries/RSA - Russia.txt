@@ -89,3 +89,4 @@ puppet = FIN
 }
 
 add_ideas = Trench_Warfare
+add_ideas = RSA_low_moral_among_russian_soldiers
