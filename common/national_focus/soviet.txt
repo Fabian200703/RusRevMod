@@ -14,9 +14,6 @@ focus_tree = {
 
 	continuous_focus_position = { x = 55 y = 1500 }
 
-##########################################
-Political
-##########################################
 
 focus = {
 		id = proclaim_the_Russian_SFSR
@@ -31,15 +28,13 @@ focus = {
 		}
 	}
 
-#####################################
-Army
-#####################################
 focus = {
 		id = raise_the_workers
 		icon = GFX_focus_GER_the_peoples_victory
 		x = 24
 		y = 0
-		cost = 1		
+		cost = 3		
+
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
 				
@@ -65,7 +60,7 @@ focus = {
 		icon = GFX_focus_GER_the_peoples_victory
 		x = 21
 		y = 0
-		cost = 1
+		cost = 3
 		
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
@@ -92,7 +87,7 @@ focus = {
 		icon = GFX_focus_GER_the_peoples_victory
 		x = 18
 		y = 0
-		cost = 1
+		cost = 3
 		
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
