@@ -29,3 +29,52 @@ option = {
                                 }
 
 }
+
+
+add_namespace = KCK
+
+
+country_event = {
+
+id = KCK.001
+title = KCK.001.t
+desc = KCK.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+option = {
+    name = KCK.001.a
+    ai_chance = {factor = 100}
+
+    827 = {transfer_state_to = KCK}
+    828 = {transfer_state_to = KCK}
+                                   
+                                
+                                }
+
+}
+
+
+add_namespace = DKO
+
+country_event = {
+
+id = DKO.001
+title = DKO.001.t
+desc = DKO.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+option = {
+    name = DKO.001.a
+    ai_chance = {factor = 100}
+
+    827 = {transfer_state_to = DKO}
+    828 = {transfer_state_to = DKO}
+                                   
+                                
+                                }
+
+}
