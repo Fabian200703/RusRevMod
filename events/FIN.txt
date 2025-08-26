@@ -1,0 +1,158 @@
+country_event = {
+	id = FIN_communist_civil_war.001
+	title = FIN_communist_civil_war.001.t
+	desc = FIN_communist_civil_war.001.desc
+	picture = GFX_report_event_generic_battle
+	hidden = no
+	fire_only_once = yes
+	trigger = {
+		date > 1917.12.06
+		tag = FIN
+	}
+	
+	option = {
+		name = FIN_communist_civil_war.001.a
+		ROOT = {
+			country_event = {
+				id = FIN_communist_civil_war.002
+			}
+		}
+	}
+	option = {
+		name = FIN_communist_civil_war.001.b
+		ROOT = {
+			country_event = {
+				id = FIN_communist_civil_war.003
+			}
+		}
+	}
+}
+
+
+country_event = {
+    id = FIN_communist_civil_war.002
+    title = FIN_communist_civil_war.002.t
+    desc = FIN_communist_civil_war.002.desc
+    picture = GFX_report_event_generic_battle
+    is_triggered_only = yes
+    hidden = no
+
+
+    option = {
+        name = FIN_communist_civil_war.002.a
+
+        111 = { transfer_state_to = FIN }
+        927 = { transfer_state_to = FIN }
+        930 = { transfer_state_to = FIN }
+        928 = { transfer_state_to = FIN }
+
+        
+
+        FIN = {
+			add_state_core = 111
+			add_state_core = 208
+			add_state_core = 928
+			add_state_core = 930
+            declare_war_on = {
+                target = FIN
+                type = annex_everything
+            }
+			load_oob = FIN_1917
+			111 = {
+				create_unit = {
+					division = "division_template = \"Infantry Division\""
+					count = 6
+					owner = FIN
+				}
+			}
+			927 = {
+				create_unit = {
+					division = "division_template = \"Infantry Division\""
+					count = 6
+					owner = FIN
+				}
+			}
+			928 = {
+				create_unit = {
+					division = "division_template = \"Infantry Division\""
+					count = 6
+					owner = FIN
+				}
+			}
+			930 = {
+				create_unit = {
+					division = "division_template = \"Infantry Division\""
+					count = 12
+					owner = FIN
+				}
+			}
+            change_tag_from = FIN
+        }
+    }
+}
+
+
+country_event = {
+	id = FIN_communist_civil_war.003
+	title = FIN_communist_civil_war.003.t
+	desc = FIN_communist_civil_war.003.desc
+	picture = GFX_report_event_generic_battle
+	is_triggered_only = yes
+	hidden = no
+
+
+
+
+	
+
+	
+	option = {
+		name = FIN_communist_civil_war.003.a
+		111 = { transfer_state_to = FIN }
+        208 = { transfer_state_to = FIN }
+        928 = { transfer_state_to = FIN }
+        930 = { transfer_state_to = FIN }
+
+        
+
+        FIN = {
+			add_state_core = 111
+			add_state_core = 208
+			add_state_core = 928
+			add_state_core = 930
+            declare_war_on = {
+                target = FIN
+                type = annex_everything
+            }
+			load_oob = FIN_1917
+			111 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 6
+					owner = FIN
+				}
+			}
+			208 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 6
+					owner = FIN
+				}
+			}
+			928 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 6
+					owner = FIN
+				}
+			}
+			930 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 12
+					owner = FIN
+				}
+			}
+        }
+	}
+}
