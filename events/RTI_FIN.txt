@@ -1,3 +1,4 @@
+add_namespace = FIN_communist_civil_war
 country_event = {
 	id = FIN_communist_civil_war.001
 	title = FIN_communist_civil_war.001.t
