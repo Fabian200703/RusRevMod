@@ -19,7 +19,7 @@ Political
 ##########################################
 
 focus = {
-		id = SOV_proclaim_the_Russian_SFSR
+		id = proclaim_the_Russian_SFSR
 		icon = GFX_focus_GER_the_peoples_victory
 		x = 12
 		y = 0
@@ -35,7 +35,7 @@ focus = {
 Army
 #####################################
 focus = {
-		id = SOV_raise_the_workers
+		id = raise_the_workers
 		icon = GFX_focus_GER_the_peoples_victory
 		x = 24
 		y = 0
@@ -61,7 +61,7 @@ focus = {
 	}
 
 focus = {
-		id = SOV_raise_the_peasantry
+		id = raise_the_peasantry
 		icon = GFX_focus_GER_the_peoples_victory
 		x = 21
 		y = 0
@@ -88,7 +88,7 @@ focus = {
 	}
 
 focus = {
-		id = SOV_recruit_defectors
+		id = recruit_defectors
 		icon = GFX_focus_GER_the_peoples_victory
 		x = 18
 		y = 0
@@ -115,10 +115,10 @@ focus = {
 	}
 
 focus = {
-		id = SOV_united_we_stand
-		prerequisite = {focus = SOV_raise_the_workers}
-		prerequisite = {focus = SOV_raise_the_peasantry}
-		prerequisite = {focus = SOV_recruit_defectors}
+		id = united_we_stand
+		prerequisite = {focus = raise_the_workers}
+		prerequisite = {focus = raise_the_peasantry}
+		prerequisite = {focus = recruit_defectors}
 		icon = GFX_focus_GER_the_peoples_victory
 		x = 21
 		y = 1
