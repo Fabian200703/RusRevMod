@@ -64,7 +64,13 @@ country_event = {
         244 = { transfer_state_to = SOV }
         219 = { transfer_state_to = SOV }
 
-        
+		create_country_leader = {
+		name = "Fallen Government"
+		picture = "Regencja.dds"
+		ideology = despotism
+		expire = "1960.1.1.1"
+}
+
 
         SOV = {
 			add_state_core = 195
@@ -133,7 +139,12 @@ country_event = {
         219 = { transfer_state_to = SOV }
 		create_faction = "Eastern Entente"
 	
-        
+        create_country_leader = {
+		name = "Fallen Government"
+		picture = "Regencja.dds"
+		ideology = despotism
+		expire = "1960.1.1.1"
+}
 
         SOV = {
 			add_state_core = 195
