@@ -24,10 +24,20 @@ option = {
     217 = {transfer_state_to = CRA}
     236 = {transfer_state_to = CRA}
     238 = {transfer_state_to = CRA}
-    137 = {transfer_state_to = CRA}                                    
-                                
-                                }
+    137 = {transfer_state_to = CRA}     
 
+    CRA = { add_state_core = 827
+            add_state_core = 828
+            add_state_core = 821
+            add_state_core = 232
+            add_state_core = 235
+            add_state_core = 237
+            add_state_core = 217
+            add_state_core = 236            
+            add_state_core = 238
+            add_state_core = 137
+            }
+        }
 }
 
 
@@ -47,8 +57,12 @@ option = {
     name = KCK.001.a
     ai_chance = {factor = 100}
 
-    827 = {transfer_state_to = KCK}
-    828 = {transfer_state_to = KCK}
+    234 = {transfer_state_to = KCK}
+    233 = {transfer_state_to = KCK}
+
+    KCK = { add_state_core = 234
+            add_state_core = 233
+    }
                                    
                                 
                                 }
@@ -71,8 +85,13 @@ option = {
     name = DKO.001.a
     ai_chance = {factor = 100}
 
-    827 = {transfer_state_to = DKO}
-    828 = {transfer_state_to = DKO}
+    218 = {transfer_state_to = DKO}
+    245 = {transfer_state_to = DKO}
+
+    DKO = {
+        add_state_core = 218
+        add_state_core = 245
+    }
                                    
                                 
                                 }
