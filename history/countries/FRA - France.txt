@@ -28,7 +28,7 @@ set_technology = {
 	basic_train = 1
 	basic_fortification_tech = 1
 }
-
+add_ideas = Trench_Warfare
 
 set_politics = {
 	ruling_party = democratic

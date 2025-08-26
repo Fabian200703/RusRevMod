@@ -31,7 +31,7 @@ set_popularities = {
 }
 
 set_stability = 0.50
-
+add_ideas = Trench_Warfare
 
 create_country_leader = {
 	name = "Karl I"

@@ -33,3 +33,4 @@ set_popularities = {
 	
 }
 
+add_ideas = Trench_Warfare

@@ -89,3 +89,5 @@ declare_war_on = {
 		target = ITA
 		type = annex_everything
 	}
+
+	add_ideas = Trench_Warfare

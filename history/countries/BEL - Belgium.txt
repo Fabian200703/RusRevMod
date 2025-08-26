@@ -25,7 +25,7 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
-
+add_ideas = Trench_Warfare
 
 set_politics = {
 	ruling_party = democratic

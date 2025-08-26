@@ -87,3 +87,5 @@ puppet = FIN
 }
 
 }
+
+add_ideas = Trench_Warfare

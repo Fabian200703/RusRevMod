@@ -29,7 +29,7 @@ set_technology = {
 }
 
 
-	
+	add_ideas = Trench_Warfare
 
 set_convoys = 1000
 
