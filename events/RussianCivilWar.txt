@@ -258,6 +258,9 @@ white_peace = POL
 230 = { transfer_state_to = TCR}
 826 = { transfer_state_to = TCR}
 
+78 = { transfer_state_to = ROM}
+766 = { transfer_state_to = ROM}
+
 DKO = {
 
 declare_war_on = {
