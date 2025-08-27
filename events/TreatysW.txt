@@ -69,3 +69,155 @@ add_state_core = 762
 
     }
 }
+
+
+
+country_event = {
+
+id = TOT.001
+title = TOT.001.t
+desc = TOT.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+	trigger = {
+		date > 1918.18.10
+		tag = AUS
+	}
+option = {
+            name = TOT.001.a
+
+91 = { transfer_state_to = UKR }
+89 = { transfer_state_to = UKR }
+
+80 = { transfer_state_to = ROM }
+76 ={ transfer_state_to = ROM }
+84 ={ transfer_state_to = ROM }
+83 ={ transfer_state_to = ROM }
+82 ={ transfer_state_to = ROM }
+
+764 ={ transfer_state_to = YUG }
+45 ={ transfer_state_to = YUG }
+109 ={ transfer_state_to = YUG }
+104 ={ transfer_state_to = YUG }
+804 ={ transfer_state_to = YUG }
+103 ={ transfer_state_to = YUG }
+853 ={ transfer_state_to = YUG }
+102 ={ transfer_state_to = YUG }
+
+850 = { transfer_state_to = ITA }
+39 = { transfer_state_to = ITA }
+736 = { transfer_state_to = ITA }
+852 = { transfer_state_to = ITA }
+163 = { transfer_state_to = ITA }
+
+88 = { transfer_state_to = POL }
+91 = { transfer_state_to = POL }
+89 = { transfer_state_to = POL }
+
+69 = { transfer_state_to = CZE }
+972 = { transfer_state_to = CZE }
+9 = { transfer_state_to = CZE }
+75 = { transfer_state_to = CZE }
+74 = { transfer_state_to = CZE }
+72 = { transfer_state_to = CZE }
+70 = { transfer_state_to = CZE }
+71 = { transfer_state_to = CZE }
+73 = { transfer_state_to = CZE }
+664 = { transfer_state_to = CZE }
+
+43 = { transfer_state_to = HUN }
+154 = { transfer_state_to = HUN }
+973 = { transfer_state_to = HUN }
+974 = { transfer_state_to = HUN }
+155 = { transfer_state_to = HUN }
+
+    white_peace = ENG
+    white_peace = FRA
+    white_peace = ITA
+    white_peace = JAP
+    white_peace = BEL
+    white_peace = LUX
+
+UKR = {
+add_state_core = 91
+add_state_core = 89
+
+
+
+}
+
+ROM = {
+add_state_core = 80
+add_state_core = 76
+add_state_core = 84
+add_state_core = 83
+add_state_core = 82
+
+
+}
+
+YUG = {
+add_state_core = 764
+add_state_core = 45
+add_state_core = 109
+add_state_core = 104
+add_state_core = 804
+add_state_core = 103
+add_state_core = 853
+add_state_core = 102
+
+
+}
+
+ITA = {
+add_state_core = 850
+add_state_core = 39
+add_state_core = 736
+add_state_core = 852
+add_state_core = 163
+
+
+}
+
+POL = {
+add_state_core = 88
+add_state_core = 91
+add_state_core = 89
+
+
+}
+
+
+CZE = {
+add_state_core = 69
+add_state_core = 972
+add_state_core = 9
+add_state_core = 75
+add_state_core = 74
+add_state_core = 72
+add_state_core = 70
+add_state_core = 71
+add_state_core = 73
+add_state_core = 664
+
+
+}
+
+HUN = {
+
+add_state_core = 43
+add_state_core = 154
+add_state_core = 973
+add_state_core = 974
+add_state_core = 155
+
+
+}
+
+
+
+
+    }
+}
