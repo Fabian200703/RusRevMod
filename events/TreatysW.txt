@@ -1,0 +1,71 @@
+add_namespace = TOV
+
+country_event = {
+
+id = TOV.001
+title = TOV.001.t
+desc = TOV.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+	trigger = {
+		date > 1918.18.10
+		tag = GER
+	}
+option = {
+            name = TOV.001.a
+        
+    white_peace = ENG
+    white_peace = FRA
+    white_peace = ITA
+    white_peace = JAP
+    white_peace = BEL
+    white_peace = LUX
+
+28 = { transfer_state_to = FRA }
+1019 = { transfer_state_to = BEL }
+912 = { transfer_state_to = DEN }
+188 = { transfer_state_to = LIT }
+85 = { transfer_state_to = POL }
+807 = { transfer_state_to = POL }
+86 = { transfer_state_to = POL }
+762 = { transfer_state_to = POL }
+
+FRA = {
+
+add_state_core = 28
+
+}
+
+BEL = {
+
+add_state_core = 1019
+
+}
+
+DEN = {
+
+add_state_core = 912
+
+}
+
+LIT = {
+
+add_state_core = 188
+
+}
+
+POL = {
+
+add_state_core = 85
+add_state_core = 807
+add_state_core = 86
+add_state_core = 762
+
+}
+
+
+
+    }
+}
