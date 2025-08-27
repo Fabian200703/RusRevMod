@@ -5484,7 +5484,7 @@ RFI_communism:0 "Red Finland"
 RFI_communism_ADJ:0 "finish"
 
 DKO_neutrality:0 "Don Cossacks"
-DKO__neutrality_ADJ:0 "Don"
+DKO_neutrality_ADJ:0 "Don"
 
 KCK_neutrality:0 "Kuban Cossacks"
 KCK_neutrality_ADJ:0 "Kuban"
