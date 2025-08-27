@@ -23,6 +23,101 @@ option = {
     white_peace = BEL
     white_peace = LUX
 
+if = {
+            limit = {
+                has_dlc = "Together for Victory"
+            }
+            set_autonomy = {
+                target = POL
+                autonomy_state = autonomy_free
+            }
+        }
+        else = {
+            end_puppet = POL
+        }
+    
+
+if = {
+            limit = {
+                has_dlc = "Together for Victory"
+            }
+            set_autonomy = {
+                target = POL
+                autonomy_state = autonomy_free
+            }
+        }
+        else = {
+            end_puppet = POL
+        }
+    
+
+
+if = {
+            limit = {
+                has_dlc = "Together for Victory"
+            }
+            set_autonomy = {
+                target = BLR
+                autonomy_state = autonomy_free
+            }
+        }
+        else = {
+            end_puppet = BLR
+        }
+
+if = {
+            limit = {
+                has_dlc = "Together for Victory"
+            }
+            set_autonomy = {
+                target = EST
+                autonomy_state = autonomy_free
+            }
+        }
+        else = {
+            end_puppet = EST
+        }
+
+if = {
+            limit = {
+                has_dlc = "Together for Victory"
+            }
+            set_autonomy = {
+                target = LIT
+                autonomy_state = autonomy_free
+            }
+        }
+        else = {
+            end_puppet = LIT
+        }
+    
+if = {
+            limit = {
+                has_dlc = "Together for Victory"
+            }
+            set_autonomy = {
+                target = LAT
+                autonomy_state = autonomy_free
+            }
+        }
+        else = {
+            end_puppet = LAT
+        }
+
+if = {
+            limit = {
+                has_dlc = "Together for Victory"
+            }
+            set_autonomy = {
+                target = UKR
+                autonomy_state = autonomy_free
+            }
+        }
+        else = {
+            end_puppet = UKR
+        }
+    
+
 28 = { transfer_state_to = FRA }
 1019 = { transfer_state_to = BEL }
 912 = { transfer_state_to = DEN }
@@ -31,6 +126,7 @@ option = {
 807 = { transfer_state_to = POL }
 86 = { transfer_state_to = POL }
 762 = { transfer_state_to = POL }
+dismantle_faction = yes 
 
 FRA = {
 
