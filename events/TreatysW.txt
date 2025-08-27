@@ -221,3 +221,99 @@ add_state_core = 155
 
     }
 }
+
+add_namespace = BPT
+
+country_event = {
+
+id = BPT.001
+title = BPT.001.t
+desc = BPT.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+	trigger = {
+		date > 1918.18.10
+		tag = BUL
+	}
+option = {
+            name = BPT.001.a
+
+1017 = { transfer_state_to = GRE}
+
+
+GRE = {
+add_state_core = 1017
+}
+
+
+
+
+
+
+    }
+}
+
+add_namespace = TOS
+
+country_event = {
+
+id = TOS.001
+title = TOS.001.t
+desc = TOS.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+	trigger = {
+		date > 1918.18.10
+		tag = TUR
+	}
+option = {
+        name = TOS.001.a
+
+341 = { transfer_state_to = GRE }
+339 = { transfer_state_to = GRE }
+
+554 = { transfer_state_to = FRA }
+680 = { transfer_state_to = FRA }
+677 = { transfer_state_to = FRA }
+799 = { transfer_state_to = FRA }
+553 = { transfer_state_to = FRA }
+
+454 = { transfer_state_to = ENG }
+455 = { transfer_state_to = ENG }
+291 = { transfer_state_to = ENG }
+291 = { transfer_state_to = ENG }
+676 = { transfer_state_to = ENG }
+656 = { transfer_state_to = ENG }
+1011 = { transfer_state_to = ENG }
+1010 = { transfer_state_to = ENG }
+
+859 = { transfer_state_to = SAU }
+856 = { transfer_state_to = SAU }
+679 = { transfer_state_to = SAU }
+855 = { transfer_state_to = SAU }
+
+SAU = {
+add_state_core = 859
+add_state_core = 856
+add_state_core = 679
+add_state_core = 855
+
+
+}
+
+GRE = {
+add_state_core = 341
+add_state_core = 339
+
+}
+
+
+
+
+
+    }
+}
