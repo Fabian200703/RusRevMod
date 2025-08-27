@@ -5483,10 +5483,12 @@ RSR_DEF:0 "the Russian SFSR"
 RFI_communism:0 "Red Finland"
 RFI_communism_ADJ:0 "finish"
 
-DKO:0 "Don Cossacks"
-DKO_ADJ:0 "Don"
-KCK:0 "Kuban Cossacks"
-KCK_ADJ:0 "Kuban"
-TCR:0 "Transcaucasian Republic"
-TCR_ADJ:0 "Transcaucasian"
+DKO_neutrality:0 "Don Cossacks"
+DKO__neutrality_ADJ:0 "Don"
+
+KCK_neutrality:0 "Kuban Cossacks"
+KCK_neutrality_ADJ:0 "Kuban"
+
+TCR_neutrality:0 "Transcaucasian Republic"
+TCR_neutrality_ADJ:0 "Transcaucasian"
 
