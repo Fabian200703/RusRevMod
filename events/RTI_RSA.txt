@@ -24,6 +24,7 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	#SOV bekommen am 07.11.17 195, 208, 244
+	retire_country_leader = yes
 	create_country_leader = {
     name = "Fallen Government"
 	picture = "Regencja.dds"
