@@ -197,15 +197,15 @@ country_event = {
 	title = RSA_democratic_civil_war.001.t
 	desc = RSA_democratic_civil_war.001.desc
 	picture = GFX_report_event_generic_battle
-	trigger = {
-		257 = {
-			OR = {
-				is_fully_controlled_by = BLA
-				is_fully_controlled_by = SOV
-			}
-		}
-		tag = SOV
-	}
+#	trigger = {
+#		257 = {
+#			OR = {
+#				is_fully_controlled_by = BLA
+#				is_fully_controlled_by = SOV
+#			}
+#		}
+#		tag = SOV
+#	}
 
 	#GRA bekommen am 07.11.17 257
 	option = {
@@ -354,10 +354,10 @@ country_event = {
 	title = RSA_anarchist_civil_war.001.t
 	desc = RSA_anarchist_civil_war.001.desc
 	picture = GFX_report_event_generic_battle
-	trigger = {
-		tag = RSA
-		date > 1917.12.06
-	}
+#	trigger = {
+#		tag = RSA
+#		date > 1917.12.06
+#	}
 
 	#SOV bekommen am 07.11.17 227
 	option = {
