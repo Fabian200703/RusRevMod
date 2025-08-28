@@ -35,13 +35,13 @@ RSA_CIVIL_WAR = {
 
 	RSA_capture_cities_2 = {
 
-		priority = 10
+		priority = 9
 
 		icon = generic_ignite_civil_war
 		fire_only_once = yes
-
+		activation = { has_idea = February_Revolution}
 		visible = {
-				has_idea = February_Revolution
+
 		}
 	
 		available = {
