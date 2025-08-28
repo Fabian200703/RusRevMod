@@ -22,10 +22,7 @@ country_event = {
 	picture = GFX_report_event_generic_battle
 	hidden = no
 	fire_only_once = yes
-	trigger = {
-
-		tag = RSA
-	}
+	is_triggered_only = yes
 	#SOV bekommen am 07.11.17 195, 208, 244
 	option = {
 		name = RSA_communist_civil_war.001.a
