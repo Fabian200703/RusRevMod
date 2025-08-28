@@ -57,7 +57,23 @@ ideas = {
 		}
 
 
+		February_Revolution = {
 
+			picture = generic_morale_bonus
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			communism_drift = 0.05
+			democratic_drift = 0.05
+				}
+
+			}
+		}
 
 
 

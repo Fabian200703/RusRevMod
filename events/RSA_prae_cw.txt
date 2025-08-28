@@ -12,7 +12,7 @@ picture = GFX_report_event_generic_battle
 fire_only_once = yes
 is_triggered_only = yes
 option = {
-
+        create_faction = "Eastern Entente"
         set_politics = {
 
             ruling_party = democratic
@@ -24,7 +24,7 @@ option = {
         }
 
 
-
+add_ideas = February_Revolution
 
 
         }
