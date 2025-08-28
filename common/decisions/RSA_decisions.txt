@@ -26,7 +26,7 @@ RSA_CIVIL_WAR = {
 
 		selectable_mission = yes
 		complete_effect = {
-			
+			add_stability = 0.10
 		}
 		timeout_effect = {
 			country_event = RSA_communist_civil_war.001
