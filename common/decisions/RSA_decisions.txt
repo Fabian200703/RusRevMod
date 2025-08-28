@@ -29,7 +29,7 @@ RSA_CIVIL_WAR = {
 			add_stability = 0.10
 		}
 		timeout_effect = {
-			country_event = RSA_communist_civil_war.001
+			country_event = rusrev.1
 		}
 	}
 }
