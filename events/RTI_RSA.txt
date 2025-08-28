@@ -23,7 +23,7 @@ country_event = {
 	hidden = no
 	fire_only_once = yes
 	trigger = {
-		date > 1917.11.06
+
 		tag = RSA
 	}
 	#SOV bekommen am 07.11.17 195, 208, 244
