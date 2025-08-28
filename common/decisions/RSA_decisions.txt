@@ -41,13 +41,17 @@ RSA_CIVIL_WAR = {
 		fire_only_once = yes
 
 		visible = {
-
+				has_idea = February_Revolution
 		}
 	
 		available = {
-			has_idea = February_Revolution
+			has_war = yes
+			AND = {
+				188 = { is_fully_controlled_by = RSA }
+				10 = { is_fully_controlled_by = RSA }
 			}
 		}
+		
 		cancel_trigger = {
 			has_war = no
 		}
