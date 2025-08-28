@@ -415,7 +415,13 @@ GER = {
 }
 
 
-
+SOV = {
+white_peace = BUL
+white_peace = GER
+white_peace = AUS
+white_peace = TUR
+white_peace = POL
+}
 
 
 
