@@ -5472,13 +5472,6 @@
  CRA_ADJ:0 "White"
  CRA_DEF:0 "the Southern White Army"
 
- RSR_communist:0 "Russian SFSR"
- RSA_cimmunist_ADJ:0 "Russian"
- RSR_communist_DEF:0 "Russian SFSR"
- RSR:0 "Russian SFSR"
- RSR_ADJ:0 "Russian"
- RSR_DEF:0 "the Russian SFSR"
-
  RFI_communism:0 "Red Finland"
  RFI_communism_ADJ:0 "finish"
  RFI_communism_DEF:0 "the Red Finland"
