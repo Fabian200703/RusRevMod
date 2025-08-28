@@ -192,11 +192,11 @@ country_event = {
 
 
 #DEMOCRATIC
-country_event = {
-	id = RSA_democratic_civil_war.001
-	title = RSA_democratic_civil_war.001.t
-	desc = RSA_democratic_civil_war.001.desc
-	picture = GFX_report_event_generic_battle
+#country_event = {
+#	id = RSA_democratic_civil_war.001
+#	title = RSA_democratic_civil_war.001.t
+#	desc = RSA_democratic_civil_war.001.desc
+#	picture = GFX_report_event_generic_battle
 #	trigger = {
 #		257 = {
 #			OR = {
@@ -206,25 +206,25 @@ country_event = {
 #		}
 #		tag = SOV
 #	}
-
-	#GRA bekommen am 07.11.17 257
-	option = {
-		name = RSA_democratic_civil_war.001.a
-		ROOT = {
-			country_event = {
-				id = RSA_democratic_civil_war.002
-			}
-		}
-	}
-	option = {
-		name = RSA_democratic_civil_war.001.b
-		ROOT = {
-			country_event = {
-				id = RSA_democratic_civil_war.003
-			}
-		}
-	}
-}
+#
+#	#GRA bekommen am 07.11.17 257
+#	option = {
+#		name = RSA_democratic_civil_war.001.a
+#		ROOT = {
+#			country_event = {
+#				id = RSA_democratic_civil_war.002
+#			}
+#		}
+#	}
+#	option = {
+#		name = RSA_democratic_civil_war.001.b
+#		ROOT = {
+#			country_event = {
+#				id = RSA_democratic_civil_war.003
+#			}
+#		}
+#	}
+#}
 
 
 country_event = {
@@ -349,34 +349,34 @@ country_event = {
 
 
 #ANARCHIST
-country_event = {
-	id = RSA_anarchist_civil_war.001
-	title = RSA_anarchist_civil_war.001.t
-	desc = RSA_anarchist_civil_war.001.desc
-	picture = GFX_report_event_generic_battle
+#country_event = {
+#	id = RSA_anarchist_civil_war.001
+#	title = RSA_anarchist_civil_war.001.t
+#	desc = RSA_anarchist_civil_war.001.desc
+#	picture = GFX_report_event_generic_battle
 #	trigger = {
 #		tag = RSA
 #		date > 1917.12.06
 #	}
-
-	#SOV bekommen am 07.11.17 227
-	option = {
-		name = RSA_anarchist_civil_war.001.a
-		ROOT = {
-			country_event = {
-				id = RSA_anarchist_civil_war.002
-			}
-		}
-	}
-	option = {
-		name = RSA_anarchist_civil_war.001.b
-		ROOT = {
-			country_event = {
-				id = RSA_anarchist_civil_war.003
-			}
-		}
-	}
-}
+#
+#	#SOV bekommen am 07.11.17 227
+#	option = {
+#		name = RSA_anarchist_civil_war.001.a
+#		ROOT = {
+#			country_event = {
+#				id = RSA_anarchist_civil_war.002
+#			}
+#		}
+#	}
+#	option = {
+#		name = RSA_anarchist_civil_war.001.b
+#		ROOT = {
+#			country_event = {
+#				id = RSA_anarchist_civil_war.003
+#			}
+#		}
+#	}
+#}
 
 
 country_event = {
