@@ -39,6 +39,21 @@ country_event = {
 				id = RSA_communist_civil_war.003
 			}
 		}
+#create_country_leader = {
+name = "Fallen Government"
+	picture = "Regencja.dds"
+	ideology = liberalism
+	traits = {}
+	expire = "1960.1.1.1"
+	}
+
+
+
+
+
+
+
+
 	}
 }
 
