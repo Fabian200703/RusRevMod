@@ -1,4 +1,4 @@
-﻿capital = 
+﻿capital = 230
 
 oob = "TCR_1917"
 

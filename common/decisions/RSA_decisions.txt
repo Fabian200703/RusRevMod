@@ -4,6 +4,11 @@ RSA_CIVIL_WAR = {
 		priority = 10
 
 		icon = generic_ignite_civil_war
+		fire_only_once = yes
+
+		visible = {
+
+		}
 	
 		available = {
 			has_war = yes
@@ -21,7 +26,7 @@ RSA_CIVIL_WAR = {
 
 		selectable_mission = yes
 		complete_effect = {
-			country_event = RSA_communist_civil_war.002
+			
 		}
 		timeout_effect = {
 			country_event = RSA_communist_civil_war.001

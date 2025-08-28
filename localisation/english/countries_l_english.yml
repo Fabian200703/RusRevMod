@@ -5360,6 +5360,7 @@
  GRA:0 "Green Army"
  GRA_ADJ:0 "Green Army"
  GRA_DEF:0 "Green Army"
+
  BLA_neutrality:0 "Black Army"
  BLA_neutrality_ADJ:0 "Black Army"
  BLA_neutrality_DEF:0 "the Black Army"
@@ -5492,7 +5493,6 @@
  DKO_ADJ:0 "Don"
  DKO_DEF:0 "the Don Cossacks"
 
-
  KCK_neutrality:0 "Kuban Cossacks"
  KCK_neutrality_ADJ:0 "Kuban"
  KCK_neutrality_DEF:0 "the Kuban Cossacks"
@@ -5508,7 +5508,7 @@
  KCK:0: "Kuban Cossacks"
  KCK_ADJ:0 "Kuban"
  KCK_DEF:0 "the Kuban Cossacks"
-
+ 
  TCR_neutrality:0 "Transcaucasian Republic"
  TCR_neutrality_ADJ:0 "Transcaucasian"
  TCR_neutrality_DEF:0 "the Transcaucasian Republic"
