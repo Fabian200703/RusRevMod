@@ -43,13 +43,13 @@ name = "Georgi Jewgenjewitsch Lwow"
 	expire = "1960.1.1.1"
 }
 
-create_country_leader = {
-name = "Alexander Fjodorowitsch Kerenski"
-	picture = "Nikolaus_II.dds"
-	ideology = liberalism
-	traits = {}
-	expire = "1960.1.1.1"
-}
+#create_country_leader = {
+#name = "Alexander Fjodorowitsch Kerenski"
+#	picture = "Kerensky.dds"
+#	ideology = liberalism
+#	traits = {}
+#	expire = "1960.1.1.1"
+#}
 
 
 
