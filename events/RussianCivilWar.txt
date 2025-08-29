@@ -26,10 +26,7 @@ option = {
     238 = {transfer_state_to = CRA}
     137 = {transfer_state_to = CRA}     
 
-		declare_war_on = {
-					target = SOV
-					type = annex_everything
-				}
+
 
     CRA = { add_state_core = 827
             add_state_core = 828
@@ -41,6 +38,10 @@ option = {
             add_state_core = 236            
             add_state_core = 238
             add_state_core = 137
+                		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
             }
         }
 }
@@ -65,13 +66,14 @@ option = {
     234 = {transfer_state_to = KCK}
     233 = {transfer_state_to = KCK}
 
-    		declare_war_on = {
-					target = SOV
-					type = annex_everything
-				}
+
 
     KCK = { add_state_core = 234
             add_state_core = 233
+                		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
     }
                                    
                                 
@@ -98,14 +100,15 @@ option = {
     218 = {transfer_state_to = DKO}
     245 = {transfer_state_to = DKO}
 
-    		declare_war_on = {
-					target = SOV
-					type = annex_everything
-				}
+
 
     DKO = {
         add_state_core = 218
         add_state_core = 245
+            		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
     }
                                    
                                 
@@ -134,16 +137,17 @@ option = {
     215 = {transfer_state_to = SAN}
     825 = {transfer_state_to = SAN}
 
-    		declare_war_on = {
-					target = SOV
-					type = annex_everything
-				}
+
 
     SAN = {
         add_state_core = 213
         add_state_core = 214
         add_state_core = 215
-        add_state_core = 825        
+        add_state_core = 825   
+            		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}     
     }
                                    
                                 
@@ -183,10 +187,7 @@ option = {
     562 = {transfer_state_to = SRA}
     574 = {transfer_state_to = SRA}
 
-    		declare_war_on = {
-					target = SOV
-					type = annex_everything
-				}
+
 
 
     SRA = {
@@ -205,7 +206,10 @@ option = {
         add_state_core = 874
         add_state_core = 562
         add_state_core = 574
-
+  		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
 
 
 

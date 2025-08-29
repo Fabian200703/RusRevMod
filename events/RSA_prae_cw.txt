@@ -47,13 +47,13 @@ option = {
 
 if = {
 limit = { is_owned_by = RSA 
-        is_controlled_by = RSA                    }
-transfer_state_to = SOV
+        is_controlled_by = RSA                    
+        transfer_state_to = SOV
+}
+
 }
 
 
 
-
-
-        }
+}
 }
