@@ -45,15 +45,14 @@ is_triggered_only = yes
 
 option = {
 
-if = {
-limit = { is_owned_by = RSA 
-        is_controlled_by = RSA                    
-        transfer_state_to = SOV
+every_state = { limit = { is_controlled_by = RSA
+                        is_owned_by = RSA
+
+ }
+ RSA = { transfer_state = SOV } 
+
+
+
 }
-
-}
-
-
-
 }
 }
