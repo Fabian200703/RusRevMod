@@ -49,7 +49,7 @@ every_state = { limit = { is_controlled_by = RSA
                         is_owned_by = RSA
 
  }
- SOV = { transfer_state = SOV } 
+ RSA = { transfer_state_to = SOV } 
 
 
 
