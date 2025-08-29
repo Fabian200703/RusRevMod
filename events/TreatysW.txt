@@ -343,7 +343,12 @@ GRE = {
 add_state_core = 1017
 }
 
-
+    white_peace = ENG
+    white_peace = FRA
+    white_peace = ITA
+    white_peace = JAP
+    white_peace = BEL
+    white_peace = LUX
 
 
 
@@ -391,6 +396,13 @@ option = {
 856 = { transfer_state_to = SAU }
 679 = { transfer_state_to = SAU }
 855 = { transfer_state_to = SAU }
+
+    white_peace = ENG
+    white_peace = FRA
+    white_peace = ITA
+    white_peace = JAP
+    white_peace = BEL
+    white_peace = LUX
 
 SAU = {
 add_state_core = 859

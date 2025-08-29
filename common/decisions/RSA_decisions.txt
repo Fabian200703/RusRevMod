@@ -107,6 +107,7 @@ RSA_CIVIL_WAR = {
 			country_event = RSA_anarchist_civil_war.001
 			country_event = TCR.001
 			country_event = SAN.001
+			country_event = RCO.001
 		}
 	}
 

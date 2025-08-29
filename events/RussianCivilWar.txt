@@ -26,6 +26,11 @@ option = {
     238 = {transfer_state_to = CRA}
     137 = {transfer_state_to = CRA}     
 
+		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+
     CRA = { add_state_core = 827
             add_state_core = 828
             add_state_core = 821
@@ -60,6 +65,11 @@ option = {
     234 = {transfer_state_to = KCK}
     233 = {transfer_state_to = KCK}
 
+    		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+
     KCK = { add_state_core = 234
             add_state_core = 233
     }
@@ -87,6 +97,11 @@ option = {
 
     218 = {transfer_state_to = DKO}
     245 = {transfer_state_to = DKO}
+
+    		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
 
     DKO = {
         add_state_core = 218
@@ -118,6 +133,11 @@ option = {
     214 = {transfer_state_to = SAN}
     215 = {transfer_state_to = SAN}
     825 = {transfer_state_to = SAN}
+
+    		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
 
     SAN = {
         add_state_core = 213
@@ -157,6 +177,16 @@ option = {
     564 = {transfer_state_to = SRA}
     566 = {transfer_state_to = SRA}
     565 = {transfer_state_to = SRA}
+    637 = {transfer_state_to = SRA}
+    822 = {transfer_state_to = SRA}
+    874 = {transfer_state_to = SRA}
+    562 = {transfer_state_to = SRA}
+    574 = {transfer_state_to = SRA}
+
+    		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
 
 
     SRA = {
@@ -170,6 +200,11 @@ option = {
         add_state_core = 825 
         add_state_core = 213
         add_state_core = 214
+        add_state_core = 637
+        add_state_core = 822
+        add_state_core = 874
+        add_state_core = 562
+        add_state_core = 574
 
 
 
@@ -193,10 +228,7 @@ hidden = no
 picture = GFX_report_event_generic_battle
 fire_only_once = yes
 is_triggered_only = yes
-	trigger = {
-		date > 1918.18.03
-		tag = RSA
-	}
+
 option = {
         name = TBL.001.a
 
@@ -252,6 +284,8 @@ white_peace = POL
 259 = { transfer_state_to = UKR }
 225 = { transfer_state_to = UKR}
 193 = { transfer_state_to = UKR}
+227 = { transfer_state_to = UKR}
+228 = { transfer_state_to = UKR}
 
 229 = { transfer_state_to = TCR}
 231 = { transfer_state_to = TCR}
@@ -384,6 +418,8 @@ UKR = {
             add_state_core = 259
 			add_state_core = 225
             add_state_core = 193
+            add_state_core = 227
+            add_state_core = 228
 
 
 }
