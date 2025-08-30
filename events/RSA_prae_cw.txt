@@ -50,7 +50,12 @@ every_state = { limit = { is_controlled_by = RSA
 
  }
   transfer_state_to = SOV } 
+  
+every_state = { limit = { is_controlled_by = GER
+                        is_owned_by = GER
 
+ }
+  transfer_state_to = GER } 
 
 
 }
