@@ -109,10 +109,113 @@ RSA_CIVIL_WAR = {
 			country_event = SAN.001
 			country_event = DKO.001
 			country_event = RCO.001
+SOV = {
+			declare_war_on = {
+		target = BUL
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = AUS
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = GER
+		type = annex_everything
+	}
+
+declare_war_on = {
+		target = TUR
+		type = annex_everything
+	}
+
+
+			}	
+		}
+	}
+
+	neither_war_nor_peace = {
+
+		priority = 7
+
+		icon = generic_ignite_civil_war
+		fire_only_once = yes
+		activation = { country_exists = SOV}
+		visible = {
+
+		}
+	
+		available = {
+			has_war = yes
+			AND = {
+				188 = { is_fully_controlled_by = RSA }
+				10 = { is_fully_controlled_by = RSA }
+			}
+		}
+		
+		cancel_trigger = {
+			has_war = no
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = yes
+		days_mission_timeout = 20
+
+		selectable_mission = yes
+		complete_effect = {
+			add_stability = 0.10
+		}
+		timeout_effect = {
+
+
+    white_peace = GER
+    white_peace = AUS
+    white_peace = BUL
+    white_peace = TUR
+
+
+
+
+
 		}
 	}
 
 
+
+
+
+
+	Peace with the Germans = {
+
+		priority = 7
+
+		icon = generic_ignite_civil_war
+		fire_only_once = yes
+		activation = { country_exists = SOV}
+		visible = {
+
+		}
+		available = {
+			country_exists = SOV
+		}
+		
+		cancel_trigger = {
+			has_war = no
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = yes
+		days_mission_timeout = 120
+
+		selectable_mission = yes
+		complete_effect = {
+			add_stability = 0.10
+		}
+		timeout_effect = {
+
+			country_event = TBL.001
+
+		}
+	}
 
 
 
