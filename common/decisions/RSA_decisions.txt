@@ -185,7 +185,7 @@ declare_war_on = {
 
 
 
-	Peace with the Germans = {
+	Peace_with_the_Germans = {
 
 		priority = 7
 
