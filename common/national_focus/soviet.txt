@@ -137,6 +137,50 @@ focus = {
 		}
 	}
 
+	focus = {
+		id = create_the_tscheka
+		prerequisite = {focus = united_we_stand}
+		icon = GFX_focus_GER_the_peoples_victory
+		x = 20
+		y = 2
+		cost = 1
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+				
+
+		}
+	}
+
+	focus = {
+		id = consolidate_power
+		prerequisite = {focus = united_we_stand}
+		icon = GFX_focus_GER_the_peoples_victory
+		x = 18
+		y = 2
+		cost = 2
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+				
+
+		}
+	}
+
+	focus = {
+		id = war_communism
+		prerequisite = {focus = united_we_stand}
+		icon = GFX_focus_GER_the_peoples_victory
+		x = 22
+		y = 2
+		cost = 2
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+				
+
+		}
+	}
 
 
 
