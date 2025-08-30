@@ -45,40 +45,40 @@ is_triggered_only = yes
 
 option = {
 
-every_state = { limit = { is_controlled_by = RSA
-                        is_owned_by = RSA
-
- }
-  transfer_state_to = SOV } 
   
-GER = {every_state = { limit = { is_controlled_by = RSA
+GER = {every_state = { limit = { is_controlled_by = GER
                         is_owned_by = RSA
 
  }
   transfer_state_to = GER } 
 }
 
-AUS = {every_state = { limit = { is_controlled_by = RSA
+AUS = {every_state = { limit = { is_controlled_by = AUS
                         is_owned_by = RSA
 
  }
   transfer_state_to = AUS } 
 }
 
-BUL = {every_state = { limit = { is_controlled_by = RSA
+BUL = {every_state = { limit = { is_controlled_by = BUL
                         is_owned_by = RSA
 
  }
   transfer_state_to = BUL } 
 }
 
-TUR = {every_state = { limit = { is_controlled_by = RSA
+TUR = {every_state = { limit = { is_controlled_by = TUR
                         is_owned_by = RSA
 
  }
   transfer_state_to = GER } 
 }
 
+every_state = { limit = { is_controlled_by = RSA
+                        is_owned_by = RSA
+
+ }
+  transfer_state_to = SOV } 
 
 
         }
